@@ -1,0 +1,4894 @@
+[WARNING] Package snforge_std version does not meet the recommended version requirement =0.33.0, it might result in unexpected behaviour
+   Compiling snforge_scarb_plugin v0.34.0
+    Finished `release` profile [optimized] target(s) in 0.05s
+   Compiling test(stwo_cairo_air_unittest) stwo_cairo_air v0.1.0 (/home/ilya/workspaces/stwo-cairo/stwo_cairo_verifier/crates/cairo_air/Scarb.toml)
+warn[E0001]: Unused variable. Consider ignoring by prefixing with `_`.
+ --> /home/ilya/workspaces/stwo-cairo/stwo_cairo_verifier/crates/cairo_air/src/lib.cairo:544:13
+        let composition_log_degree_bound = self.opcodes.max_constraint_log_degree_bound();
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+warn: Unused import: `stwo_cairo_air::components::addr_to_id::constraints::M31`
+ --> /home/ilya/workspaces/stwo-cairo/stwo_cairo_verifier/crates/cairo_air/src/components/addr_to_id/constraints.cairo:5:44
+use stwo_verifier_core::fields::m31::{m31, M31};
+                                           ^^^
+
+warn: Unused import: `stwo_cairo_air::components::addr_to_id::constraints::qm31`
+ --> /home/ilya/workspaces/stwo-cairo/stwo_cairo_verifier/crates/cairo_air/src/components/addr_to_id/constraints.cairo:6:56
+use stwo_verifier_core::fields::qm31::{QM31, QM31Impl, qm31};
+                                                       ^^^^
+
+warn: Unused import: `stwo_cairo_air::components::genericopcode::constraints::M31`
+ --> /home/ilya/workspaces/stwo-cairo/stwo_cairo_verifier/crates/cairo_air/src/components/genericopcode/constraints.cairo:4:39
+use stwo_verifier_core::fields::m31::{M31, m31};
+                                      ^^^
+
+warn: Unused import: `stwo_cairo_air::components::genericopcode::constraints::m31`
+ --> /home/ilya/workspaces/stwo-cairo/stwo_cairo_verifier/crates/cairo_air/src/components/genericopcode/constraints.cairo:4:44
+use stwo_verifier_core::fields::m31::{M31, m31};
+                                           ^^^
+
+warn: Unused import: `stwo_cairo_air::components::genericopcode::constraints::qm31`
+ --> /home/ilya/workspaces/stwo-cairo/stwo_cairo_verifier/crates/cairo_air/src/components/genericopcode/constraints.cairo:5:56
+use stwo_verifier_core::fields::qm31::{QM31, QM31Impl, qm31};
+                                                       ^^^^
+
+warn: Unused import: `stwo_cairo_air::components::id_to_f252::constraints_big::m31`
+ --> /home/ilya/workspaces/stwo-cairo/stwo_cairo_verifier/crates/cairo_air/src/components/id_to_f252/constraints_big.cairo:5:39
+use stwo_verifier_core::fields::m31::{m31, M31};
+                                      ^^^
+
+warn: Unused import: `stwo_cairo_air::components::id_to_f252::constraints_big::M31`
+ --> /home/ilya/workspaces/stwo-cairo/stwo_cairo_verifier/crates/cairo_air/src/components/id_to_f252/constraints_big.cairo:5:44
+use stwo_verifier_core::fields::m31::{m31, M31};
+                                           ^^^
+
+warn: Unused import: `stwo_cairo_air::components::id_to_f252::constraints_small::m31`
+ --> /home/ilya/workspaces/stwo-cairo/stwo_cairo_verifier/crates/cairo_air/src/components/id_to_f252/constraints_small.cairo:5:39
+use stwo_verifier_core::fields::m31::{m31, M31};
+                                      ^^^
+
+warn: Unused import: `stwo_cairo_air::components::id_to_f252::constraints_small::M31`
+ --> /home/ilya/workspaces/stwo-cairo/stwo_cairo_verifier/crates/cairo_air/src/components/id_to_f252/constraints_small.cairo:5:44
+use stwo_verifier_core::fields::m31::{m31, M31};
+                                           ^^^
+
+warn: Unused import: `stwo_cairo_air::components::jump_t_t_f_opcode::constraints::M31`
+ --> /home/ilya/workspaces/stwo-cairo/stwo_cairo_verifier/crates/cairo_air/src/components/jump_t_t_f_opcode/constraints.cairo:5:44
+use stwo_verifier_core::fields::m31::{m31, M31};
+                                           ^^^
+
+warn[E0001]: Unused variable. Consider ignoring by prefixing with `_`.
+ --> /home/ilya/workspaces/stwo-cairo/stwo_cairo_verifier/crates/cairo_air/src/components/jump_t_t_f_opcode/constraints.cairo:135:5
+    MemoryIdToBig_alpha23,
+    ^^^^^^^^^^^^^^^^^^^^^
+
+warn[E0001]: Unused variable. Consider ignoring by prefixing with `_`.
+ --> /home/ilya/workspaces/stwo-cairo/stwo_cairo_verifier/crates/cairo_air/src/components/jump_t_t_f_opcode/constraints.cairo:136:5
+    MemoryIdToBig_alpha24,
+    ^^^^^^^^^^^^^^^^^^^^^
+
+warn[E0001]: Unused variable. Consider ignoring by prefixing with `_`.
+ --> /home/ilya/workspaces/stwo-cairo/stwo_cairo_verifier/crates/cairo_air/src/components/jump_t_t_f_opcode/constraints.cairo:137:5
+    MemoryIdToBig_alpha25,
+    ^^^^^^^^^^^^^^^^^^^^^
+
+warn[E0001]: Unused variable. Consider ignoring by prefixing with `_`.
+ --> /home/ilya/workspaces/stwo-cairo/stwo_cairo_verifier/crates/cairo_air/src/components/jump_t_t_f_opcode/constraints.cairo:138:5
+    MemoryIdToBig_alpha26,
+    ^^^^^^^^^^^^^^^^^^^^^
+
+warn[E0001]: Unused variable. Consider ignoring by prefixing with `_`.
+ --> /home/ilya/workspaces/stwo-cairo/stwo_cairo_verifier/crates/cairo_air/src/components/jump_t_t_f_opcode/constraints.cairo:139:5
+    MemoryIdToBig_alpha27,
+    ^^^^^^^^^^^^^^^^^^^^^
+
+warn[E0001]: Unused variable. Consider ignoring by prefixing with `_`.
+ --> /home/ilya/workspaces/stwo-cairo/stwo_cairo_verifier/crates/cairo_air/src/components/jump_t_t_f_opcode/constraints.cairo:155:5
+    VerifyInstruction_alpha10,
+    ^^^^^^^^^^^^^^^^^^^^^^^^^
+
+warn[E0001]: Unused variable. Consider ignoring by prefixing with `_`.
+ --> /home/ilya/workspaces/stwo-cairo/stwo_cairo_verifier/crates/cairo_air/src/components/jump_t_t_f_opcode/constraints.cairo:156:5
+    VerifyInstruction_alpha11,
+    ^^^^^^^^^^^^^^^^^^^^^^^^^
+
+warn[E0001]: Unused variable. Consider ignoring by prefixing with `_`.
+ --> /home/ilya/workspaces/stwo-cairo/stwo_cairo_verifier/crates/cairo_air/src/components/jump_t_t_f_opcode/constraints.cairo:158:5
+    VerifyInstruction_alpha13,
+    ^^^^^^^^^^^^^^^^^^^^^^^^^
+
+warn[E0001]: Unused variable. Consider ignoring by prefixing with `_`.
+ --> /home/ilya/workspaces/stwo-cairo/stwo_cairo_verifier/crates/cairo_air/src/components/jump_t_t_f_opcode/constraints.cairo:159:5
+    VerifyInstruction_alpha14,
+    ^^^^^^^^^^^^^^^^^^^^^^^^^
+
+warn[E0001]: Unused variable. Consider ignoring by prefixing with `_`.
+ --> /home/ilya/workspaces/stwo-cairo/stwo_cairo_verifier/crates/cairo_air/src/components/jump_t_t_f_opcode/constraints.cairo:166:5
+    VerifyInstruction_alpha7,
+    ^^^^^^^^^^^^^^^^^^^^^^^^
+
+warn[E0001]: Unused variable. Consider ignoring by prefixing with `_`.
+ --> /home/ilya/workspaces/stwo-cairo/stwo_cairo_verifier/crates/cairo_air/src/components/jump_t_t_f_opcode/constraints.cairo:167:5
+    VerifyInstruction_alpha8,
+    ^^^^^^^^^^^^^^^^^^^^^^^^
+
+warn[E0001]: Unused variable. Consider ignoring by prefixing with `_`.
+ --> /home/ilya/workspaces/stwo-cairo/stwo_cairo_verifier/crates/cairo_air/src/components/jump_t_t_f_opcode/constraints.cairo:168:5
+    VerifyInstruction_alpha9,
+    ^^^^^^^^^^^^^^^^^^^^^^^^
+
+warn: Unused import: `stwo_cairo_air::components::range_check::rc_19_constraints::M31`
+ --> /home/ilya/workspaces/stwo-cairo/stwo_cairo_verifier/crates/cairo_air/src/components/range_check/rc_19_constraints.cairo:4:39
+use stwo_verifier_core::fields::m31::{M31, m31};
+                                      ^^^
+
+warn: Unused import: `stwo_cairo_air::components::range_check::rc_19_constraints::m31`
+ --> /home/ilya/workspaces/stwo-cairo/stwo_cairo_verifier/crates/cairo_air/src/components/range_check/rc_19_constraints.cairo:4:44
+use stwo_verifier_core::fields::m31::{M31, m31};
+                                           ^^^
+
+warn: Unused import: `stwo_cairo_air::components::range_check::rc_19_constraints::qm31`
+ --> /home/ilya/workspaces/stwo-cairo/stwo_cairo_verifier/crates/cairo_air/src/components/range_check/rc_19_constraints.cairo:5:56
+use stwo_verifier_core::fields::qm31::{QM31, QM31Impl, qm31};
+                                                       ^^^^
+
+warn: Unused import: `stwo_cairo_air::components::range_check::rc_4_3_constraints::M31`
+ --> /home/ilya/workspaces/stwo-cairo/stwo_cairo_verifier/crates/cairo_air/src/components/range_check/rc_4_3_constraints.cairo:4:39
+use stwo_verifier_core::fields::m31::{M31, m31};
+                                      ^^^
+
+warn: Unused import: `stwo_cairo_air::components::range_check::rc_4_3_constraints::m31`
+ --> /home/ilya/workspaces/stwo-cairo/stwo_cairo_verifier/crates/cairo_air/src/components/range_check/rc_4_3_constraints.cairo:4:44
+use stwo_verifier_core::fields::m31::{M31, m31};
+                                           ^^^
+
+warn: Unused import: `stwo_cairo_air::components::range_check::rc_4_3_constraints::qm31`
+ --> /home/ilya/workspaces/stwo-cairo/stwo_cairo_verifier/crates/cairo_air/src/components/range_check/rc_4_3_constraints.cairo:5:56
+use stwo_verifier_core::fields::qm31::{QM31, QM31Impl, qm31};
+                                                       ^^^^
+
+warn: Unused import: `stwo_cairo_air::components::range_check::rc_7_2_5_constraints::M31`
+ --> /home/ilya/workspaces/stwo-cairo/stwo_cairo_verifier/crates/cairo_air/src/components/range_check/rc_7_2_5_constraints.cairo:4:39
+use stwo_verifier_core::fields::m31::{M31, m31};
+                                      ^^^
+
+warn: Unused import: `stwo_cairo_air::components::range_check::rc_7_2_5_constraints::m31`
+ --> /home/ilya/workspaces/stwo-cairo/stwo_cairo_verifier/crates/cairo_air/src/components/range_check/rc_7_2_5_constraints.cairo:4:44
+use stwo_verifier_core::fields::m31::{M31, m31};
+                                           ^^^
+
+warn: Unused import: `stwo_cairo_air::components::range_check::rc_7_2_5_constraints::qm31`
+ --> /home/ilya/workspaces/stwo-cairo/stwo_cairo_verifier/crates/cairo_air/src/components/range_check/rc_7_2_5_constraints.cairo:5:56
+use stwo_verifier_core::fields::qm31::{QM31, QM31Impl, qm31};
+                                                       ^^^^
+
+warn: Unused import: `stwo_cairo_air::components::range_check::rc_9_9_constraints::M31`
+ --> /home/ilya/workspaces/stwo-cairo/stwo_cairo_verifier/crates/cairo_air/src/components/range_check/rc_9_9_constraints.cairo:4:39
+use stwo_verifier_core::fields::m31::{M31, m31};
+                                      ^^^
+
+warn: Unused import: `stwo_cairo_air::components::range_check::rc_9_9_constraints::m31`
+ --> /home/ilya/workspaces/stwo-cairo/stwo_cairo_verifier/crates/cairo_air/src/components/range_check/rc_9_9_constraints.cairo:4:44
+use stwo_verifier_core::fields::m31::{M31, m31};
+                                           ^^^
+
+warn: Unused import: `stwo_cairo_air::components::range_check::rc_9_9_constraints::qm31`
+ --> /home/ilya/workspaces/stwo-cairo/stwo_cairo_verifier/crates/cairo_air/src/components/range_check/rc_9_9_constraints.cairo:5:56
+use stwo_verifier_core::fields::qm31::{QM31, QM31Impl, qm31};
+                                                       ^^^^
+
+warn: Unused import: `stwo_cairo_air::components::ret_opcode::constraints::M31`
+ --> /home/ilya/workspaces/stwo-cairo/stwo_cairo_verifier/crates/cairo_air/src/components/ret_opcode/constraints.cairo:5:44
+use stwo_verifier_core::fields::m31::{m31, M31};
+                                           ^^^
+
+warn[E0001]: Unused variable. Consider ignoring by prefixing with `_`.
+ --> /home/ilya/workspaces/stwo-cairo/stwo_cairo_verifier/crates/cairo_air/src/components/ret_opcode/constraints.cairo:112:5
+    VerifyInstruction_alpha10,
+    ^^^^^^^^^^^^^^^^^^^^^^^^^
+
+warn[E0001]: Unused variable. Consider ignoring by prefixing with `_`.
+ --> /home/ilya/workspaces/stwo-cairo/stwo_cairo_verifier/crates/cairo_air/src/components/ret_opcode/constraints.cairo:114:5
+    VerifyInstruction_alpha12,
+    ^^^^^^^^^^^^^^^^^^^^^^^^^
+
+warn[E0001]: Unused variable. Consider ignoring by prefixing with `_`.
+ --> /home/ilya/workspaces/stwo-cairo/stwo_cairo_verifier/crates/cairo_air/src/components/ret_opcode/constraints.cairo:115:5
+    VerifyInstruction_alpha13,
+    ^^^^^^^^^^^^^^^^^^^^^^^^^
+
+warn[E0001]: Unused variable. Consider ignoring by prefixing with `_`.
+ --> /home/ilya/workspaces/stwo-cairo/stwo_cairo_verifier/crates/cairo_air/src/components/ret_opcode/constraints.cairo:116:5
+    VerifyInstruction_alpha14,
+    ^^^^^^^^^^^^^^^^^^^^^^^^^
+
+warn[E0001]: Unused variable. Consider ignoring by prefixing with `_`.
+ --> /home/ilya/workspaces/stwo-cairo/stwo_cairo_verifier/crates/cairo_air/src/components/ret_opcode/constraints.cairo:117:5
+    VerifyInstruction_alpha15,
+    ^^^^^^^^^^^^^^^^^^^^^^^^^
+
+warn[E0001]: Unused variable. Consider ignoring by prefixing with `_`.
+ --> /home/ilya/workspaces/stwo-cairo/stwo_cairo_verifier/crates/cairo_air/src/components/ret_opcode/constraints.cairo:118:5
+    VerifyInstruction_alpha16,
+    ^^^^^^^^^^^^^^^^^^^^^^^^^
+
+warn[E0001]: Unused variable. Consider ignoring by prefixing with `_`.
+ --> /home/ilya/workspaces/stwo-cairo/stwo_cairo_verifier/crates/cairo_air/src/components/ret_opcode/constraints.cairo:124:5
+    VerifyInstruction_alpha6,
+    ^^^^^^^^^^^^^^^^^^^^^^^^
+
+warn[E0001]: Unused variable. Consider ignoring by prefixing with `_`.
+ --> /home/ilya/workspaces/stwo-cairo/stwo_cairo_verifier/crates/cairo_air/src/components/ret_opcode/constraints.cairo:126:5
+    VerifyInstruction_alpha8,
+    ^^^^^^^^^^^^^^^^^^^^^^^^
+
+warn[E0001]: Unused variable. Consider ignoring by prefixing with `_`.
+ --> /home/ilya/workspaces/stwo-cairo/stwo_cairo_verifier/crates/cairo_air/src/components/ret_opcode/constraints.cairo:127:5
+    VerifyInstruction_alpha9,
+    ^^^^^^^^^^^^^^^^^^^^^^^^
+
+warn: Unused import: `stwo_cairo_air::components::verify_instruction::constraints::M31`
+ --> /home/ilya/workspaces/stwo-cairo/stwo_cairo_verifier/crates/cairo_air/src/components/verify_instruction/constraints.cairo:5:44
+use stwo_verifier_core::fields::m31::{m31, M31};
+                                           ^^^
+
+warn: Unused import: `stwo_cairo_air::components::verify_instruction::constraints::qm31`
+ --> /home/ilya/workspaces/stwo-cairo/stwo_cairo_verifier/crates/cairo_air/src/components/verify_instruction/constraints.cairo:6:56
+use stwo_verifier_core::fields::qm31::{QM31, QM31Impl, qm31};
+                                                       ^^^^
+
+   Compiling test(stwo_cairo_air_integrationtest) stwo_cairo_air_integrationtest v0.1.0 (/home/ilya/workspaces/stwo-cairo/stwo_cairo_verifier/crates/cairo_air/Scarb.toml)
+warn: Unused import: `stwo_cairo_air_integrationtest::verify::FriConfig`
+ --> /home/ilya/workspaces/stwo-cairo/stwo_cairo_verifier/crates/cairo_air/tests/verify.cairo:4:30
+use stwo_verifier_core::fri::FriConfig;
+                             ^^^^^^^^^
+
+warn: Unused import: `stwo_cairo_air_integrationtest::verify::PcsConfig`
+ --> /home/ilya/workspaces/stwo-cairo/stwo_cairo_verifier/crates/cairo_air/tests/verify.cairo:5:30
+use stwo_verifier_core::pcs::PcsConfig;
+                             ^^^^^^^^^
+
+warn: Unused import: `stwo_cairo_air_integrationtest::verify::verify`
+ --> /home/ilya/workspaces/stwo-cairo/stwo_cairo_verifier/crates/cairo_air/tests/verify.cairo:8:35
+use stwo_verifier_core::verifier::verify;
+                                  ^^^^^^
+
+    Finished `dev` profile target(s) in 38 seconds
+[WARNING] File = /home/ilya/workspaces/stwo-cairo/stwo_cairo_verifier/target/dev/stwo_cairo_air_integrationtest.test.starknet_artifacts.json missing when it should be existing, perhaps due to Scarb problem.
+[WARNING] File = /home/ilya/workspaces/stwo-cairo/stwo_cairo_verifier/target/dev/stwo_cairo_air_unittest.test.starknet_artifacts.json missing when it should be existing, perhaps due to Scarb problem.
+
+
+Collected 1 test(s) from stwo_cairo_air package
+Running 0 test(s) from src/
+Running 1 test(s) from tests/
+before proof
+deserialized proof
+12
+12
+8
+80
+4
+4
+4
+4
+Made here 0
+draw_felt252: res = 1186186124696418791802203581467239332173039271070244559802968380404606031270
+draw_felt252: res = 1549752961514670439283461624414852960878278395715347085603695906270591275718
+draw_felt252: res = 276057091852122099232296054593194759297832164448462429085192042631061553338
+draw_felt252: res = 164007944044519552125004637425047150837890254329714080473212561009261189569
+draw_felt252: res = 608962490461773429545674914476705631471168275385160370614811843329589787389
+draw_felt252: res = 697277679351240601485976207889413279471582228040926049438220946763796685057
+draw_felt252: res = 1704910517323450709095591687687990399495283377480952602276095310807139625433
+draw_felt252: res = 1501871233561108427839568966187701578022354316573193340285720162638567184926
+sum: (1154326649 + 2121858250i) + (1958752607 + 657393086i)u
+sum: (492349011 + 1044925823i) + (1483752897 + 897196158i)u
+sum: (0 + 0i) + (0 + 0i)u
+draw_felt252: res = 468562750042322303021480466153823000009646375625298037236444352743766489898
+random_coeff: (1719401258 + 1706200028i) + (404320438 + 2133890950i)u
+draw_felt252: res = 3449900869454452977725916144828128880929222749174644046306342918566651396078
+inside opcodes
+trying jump_t_t_f
+eval: (1502926491 + 1666907425i) + (756549836 + 1849061575i)u
+evaluate_constraints_at_point
+01
+log_size: 4
+here
+evaluate_constraints_at_point
+done popping
+before
+after pops
+after oods check
+draw_felt252: res = 1147300426833233976031931154724063162546317051638483719984063216102788486915
+draw_felt252: res = 1277853152118851890821444441715761249892478777959551426483562222541230328764
+draw_felt252: res = 568736477702450359857198353398267302401768324686686835788461402805834605609
+draw_felt252: res = 2454018999498792866000333575542207863609328794543758420010304433980364008328
+draw_felt252: res = 1938645110531836396554383747715255902352369705210655943317970486343872500089
+draw_felt252: res = 2271715365256051888591936323190326782241890684718643384558817514920597881323
+draw_felt252: res = 1490285992234205513820443107641473233214699882000440130443644306832649903011
+draw_felt252: res = 1674924987338018431289517130097526926684752989781686620413426091242349625437
+draw_felt252: res = 3150301411229524547859349766196539919668569049741214648315983717916953145516
+draw_felt252: res = 3230153948628758238465174986322947384012345606519538891117351314894264858554
+draw_felt252: res = 2901062918781017770845831368743650212409750356947385998530889296188224603520
+draw_felt252: res = 755082877568630959681342451924867028132745895312142107877263119300285219109
+draw_felt252: res = 3020160073783726844464267615016650651272141937461486760029207668041505244745
+draw_felt252: res = 794834866135465049892817453310680849527920869092682786126489692453428804705
+draw_felt252: res = 2146312397115259658608946920178360706855054289827072459668447784685456390526
+draw_felt252: res = 1204972182063305423612500955795366968563613057433270224068531828875941221775
+draw_felt252: res = 709610844474429801047644976778058997586090094307041614718873331081071995414
+draw_felt252: res = 3499809741976141111987140949442155346116561494084232286002990803354011244616
+draw_felt252: res = 347928722908370550839872212032815479523190663889008616618636505367262977560
+draw_felt252: res = 18115256178173365927811416523397396126513121978988780393844783132216858128
+draw_felt252: res = 300394747975606796348450160391179938507371828098882569950315114226275452188
+Proof of work passed
+draw_felt252: res = 267078952737276436217911769321516729706158820743642476855074091660054137096
+draw_felt252: res = 329336326111744046574266960010837208746162824069017466037339354898484159746
+draw_felt252: res = 2456125795166414896513063157976697385989760725944398932393322865331888313140
+log_sizes: @@[23, 22, 21, 20, 19, 18, 17, 16, 15, 14, 13, 12, 11, 10, 9, 8, 7, 6, 5]
+log_sizes: @@[5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 20, 20, 19, 19, 19, 15, 15, 15, 15, 8, 8, 8]
+log_sizes: @@[5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 20, 20, 20, 20, 19, 19, 19, 19, 15, 15, 15, 15, 8, 8, 8, 8]
+log_sizes: @@[21, 21, 21, 21]
+decommitments empy
+before  fri_answers
+fri_answers
+n_columns_per_tree: 4
+query_eval_at_column: 1404233779
+query_eval_at_column: 460534333
+query_eval_at_column: 134298910
+query_eval_at_column: 2003697478
+query_eval_at_column: 646146088
+query_eval_at_column: 1004026316
+query_eval_at_column: 128627404
+query_eval_at_column: 224247645
+query_eval_at_column: 1038260740
+query_eval_at_column: 224653962
+query_eval_at_column: 1568534823
+query_eval_at_column: 1259443359
+query_eval_at_column: 1853849840
+query_eval_at_column: 1398997906
+query_eval_at_column: 1405807571
+query_eval_at_column: 1236909
+query_eval_at_column: 1541354537
+query_eval_at_column: 328616389
+query_eval_at_column: 758842613
+query_eval_at_column: 1916787288
+query_eval_at_column: 358960149
+query_eval_at_column: 125886991
+query_eval_at_column: 1265054324
+query_eval_at_column: 276825265
+query_eval_at_column: 1678450077
+query_eval_at_column: 1105890907
+query_eval_at_column: 1545422710
+query_eval_at_column: 981144788
+query_eval_at_column: 2002562918
+query_eval_at_column: 1539855777
+query_eval_at_column: 2117253640
+query_eval_at_column: 581629354
+query_eval_at_column: 1859008599
+query_eval_at_column: 1589938579
+query_eval_at_column: 2026273948
+query_eval_at_column: 2104359054
+query_eval_at_column: 858392347
+query_eval_at_column: 387368575
+query_eval_at_column: 806066086
+query_eval_at_column: 636996921
+query_eval_at_column: 435512750
+query_eval_at_column: 1460623855
+query_eval_at_column: 1489184478
+query_eval_at_column: 1309698053
+query_eval_at_column: 1390309065
+query_eval_at_column: 897942684
+query_eval_at_column: 1366349428
+query_eval_at_column: 515370223
+query_eval_at_column: 2052817718
+query_eval_at_column: 666700655
+query_eval_at_column: 1966393341
+query_eval_at_column: 824031116
+query_eval_at_column: 591573158
+query_eval_at_column: 904679914
+query_eval_at_column: 1078889422
+query_eval_at_column: 1111906310
+query_eval_at_column: 2044697859
+query_eval_at_column: 988268464
+query_eval_at_column: 776528738
+query_eval_at_column: 818176228
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 824058371
+query_eval_at_column: 1303658667
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 1649475812
+query_eval_at_column: 1325830874
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 526711657
+query_eval_at_column: 443331765
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 1074698952
+query_eval_at_column: 1203805789
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 720454426
+query_eval_at_column: 18248957
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 1258379965
+query_eval_at_column: 761498076
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 847579665
+query_eval_at_column: 29610559
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 11720387
+query_eval_at_column: 243066161
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 1035232304
+query_eval_at_column: 648000315
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 1553653370
+query_eval_at_column: 1213470731
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 2021138555
+query_eval_at_column: 67668998
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 1124242318
+query_eval_at_column: 976705559
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 30850872
+query_eval_at_column: 1748884960
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 1473991018
+query_eval_at_column: 170982187
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 990899018
+query_eval_at_column: 1584994793
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 1648066298
+query_eval_at_column: 322768483
+query_eval_at_column: 64411434
+query_eval_at_column: 2005048899
+query_eval_at_column: 512927515
+query_eval_at_column: 899073023
+query_eval_at_column: 352061640
+query_eval_at_column: 1671979760
+query_eval_at_column: 512927515
+query_eval_at_column: 899073023
+query_eval_at_column: 352061640
+query_eval_at_column: 1671979760
+query_eval_at_column: 1700884343
+query_eval_at_column: 1809541908
+query_eval_at_column: 259835181
+query_eval_at_column: 215941106
+query_eval_at_column: 1712271110
+query_eval_at_column: 1349253346
+query_eval_at_column: 2137167736
+query_eval_at_column: 1270199511
+query_eval_at_column: 1712271110
+query_eval_at_column: 1349253346
+query_eval_at_column: 2137167736
+query_eval_at_column: 1270199511
+query_eval_at_column: 981442490
+query_eval_at_column: 1366072799
+query_eval_at_column: 1690489271
+query_eval_at_column: 269398549
+query_eval_at_column: 1670070503
+query_eval_at_column: 188993494
+query_eval_at_column: 1470548111
+query_eval_at_column: 1120474389
+query_eval_at_column: 1670070503
+query_eval_at_column: 188993494
+query_eval_at_column: 1470548111
+query_eval_at_column: 1120474389
+query_eval_at_column: 1514736001
+query_eval_at_column: 226745450
+query_eval_at_column: 1919157496
+query_eval_at_column: 1990753548
+query_eval_at_column: 909668430
+query_eval_at_column: 2015130483
+query_eval_at_column: 982308279
+query_eval_at_column: 1091571551
+query_eval_at_column: 909668430
+query_eval_at_column: 2015130483
+query_eval_at_column: 982308279
+query_eval_at_column: 1091571551
+query_eval_at_column: 1771796664
+query_eval_at_column: 1491896317
+query_eval_at_column: 307930020
+query_eval_at_column: 759826158
+query_eval_at_column: 590360712
+query_eval_at_column: 2033899450
+query_eval_at_column: 1932423393
+query_eval_at_column: 1170868388
+query_eval_at_column: 590360712
+query_eval_at_column: 2033899450
+query_eval_at_column: 1932423393
+query_eval_at_column: 1170868388
+query_eval_at_column: 827174818
+query_eval_at_column: 1743693633
+query_eval_at_column: 589353655
+query_eval_at_column: 891967817
+query_eval_at_column: 666472172
+query_eval_at_column: 2047601737
+query_eval_at_column: 1261163395
+query_eval_at_column: 1504762227
+query_eval_at_column: 666472172
+query_eval_at_column: 2047601737
+query_eval_at_column: 1261163395
+query_eval_at_column: 1504762227
+query_eval_at_column: 44257635
+query_eval_at_column: 1261337285
+query_eval_at_column: 1721787392
+query_eval_at_column: 410682700
+query_eval_at_column: 816834153
+query_eval_at_column: 1981439047
+query_eval_at_column: 1389627126
+query_eval_at_column: 1642428626
+query_eval_at_column: 816834153
+query_eval_at_column: 1981439047
+query_eval_at_column: 1389627126
+query_eval_at_column: 1642428626
+query_eval_at_column: 39456058
+query_eval_at_column: 1574069627
+query_eval_at_column: 1841285891
+query_eval_at_column: 984882443
+query_eval_at_column: 1698372170
+query_eval_at_column: 393837203
+query_eval_at_column: 1274182809
+query_eval_at_column: 2054098129
+query_eval_at_column: 1698372170
+query_eval_at_column: 393837203
+query_eval_at_column: 1274182809
+query_eval_at_column: 2054098129
+query_eval_at_column: 1887290085
+query_eval_at_column: 548640462
+query_eval_at_column: 978763381
+query_eval_at_column: 2072269357
+query_eval_at_column: 1454774478
+query_eval_at_column: 479461633
+query_eval_at_column: 12274134
+query_eval_at_column: 1365168888
+query_eval_at_column: 1454774478
+query_eval_at_column: 479461633
+query_eval_at_column: 12274134
+query_eval_at_column: 1365168888
+query_eval_at_column: 419592452
+query_eval_at_column: 1428596595
+query_eval_at_column: 1759364133
+query_eval_at_column: 1468619917
+query_eval_at_column: 867609835
+query_eval_at_column: 806725555
+query_eval_at_column: 1671565069
+query_eval_at_column: 723075703
+query_eval_at_column: 867609835
+query_eval_at_column: 806725555
+query_eval_at_column: 1671565069
+query_eval_at_column: 723075703
+query_eval_at_column: 1400144291
+query_eval_at_column: 624436085
+query_eval_at_column: 1763974155
+query_eval_at_column: 1322001230
+query_eval_at_column: 9232369
+query_eval_at_column: 632742360
+query_eval_at_column: 1490684489
+query_eval_at_column: 192090708
+query_eval_at_column: 9232369
+query_eval_at_column: 632742360
+query_eval_at_column: 1490684489
+query_eval_at_column: 192090708
+query_eval_at_column: 190800251
+query_eval_at_column: 1561182017
+query_eval_at_column: 135577385
+query_eval_at_column: 1160545874
+query_eval_at_column: 1519314676
+query_eval_at_column: 1054245739
+query_eval_at_column: 1044069729
+query_eval_at_column: 870753080
+query_eval_at_column: 1519314676
+query_eval_at_column: 1054245739
+query_eval_at_column: 1044069729
+query_eval_at_column: 870753080
+query_eval_at_column: 947844406
+query_eval_at_column: 199019879
+query_eval_at_column: 2142461997
+query_eval_at_column: 1724247482
+query_eval_at_column: 744146082
+query_eval_at_column: 1341507233
+query_eval_at_column: 352356508
+query_eval_at_column: 1431863942
+query_eval_at_column: 744146082
+query_eval_at_column: 1341507233
+query_eval_at_column: 352356508
+query_eval_at_column: 1431863942
+query_eval_at_column: 663384698
+query_eval_at_column: 574820206
+query_eval_at_column: 176337359
+query_eval_at_column: 1052915129
+query_eval_at_column: 1984941869
+query_eval_at_column: 454663788
+query_eval_at_column: 413131132
+query_eval_at_column: 235219991
+query_eval_at_column: 1984941869
+query_eval_at_column: 454663788
+query_eval_at_column: 413131132
+query_eval_at_column: 235219991
+query_eval_at_column: 2047392322
+query_eval_at_column: 1561738003
+query_eval_at_column: 623630244
+query_eval_at_column: 1059128101
+query_eval_at_column: 1212172953
+query_eval_at_column: 1276196131
+query_eval_at_column: 1159862700
+query_eval_at_column: 501728625
+query_eval_at_column: 1212172953
+query_eval_at_column: 1276196131
+query_eval_at_column: 1159862700
+query_eval_at_column: 501728625
+query_eval_at_column: 206320270
+query_eval_at_column: 193936048
+query_eval_at_column: 1694507938
+query_eval_at_column: 70175886
+query_eval_at_column: 1403810536
+query_eval_at_column: 917302482
+query_eval_at_column: 83289870
+query_eval_at_column: 1418024106
+query_eval_at_column: 1103152029
+query_eval_at_column: 917302482
+query_eval_at_column: 83289870
+query_eval_at_column: 1418024106
+query_eval_at_column: 1103152029
+query_eval_at_column: 713704624
+query_eval_at_column: 146868919
+query_eval_at_column: 1222066232
+query_eval_at_column: 1244934893
+query_eval_at_column: 652718229
+query_eval_at_column: 823034382
+query_eval_at_column: 334066751
+query_eval_at_column: 1248173173
+query_eval_at_column: 211931300
+query_eval_at_column: 823034382
+query_eval_at_column: 334066751
+query_eval_at_column: 1248173173
+query_eval_at_column: 211931300
+query_eval_at_column: 385713729
+query_eval_at_column: 911702081
+query_eval_at_column: 2014231769
+query_eval_at_column: 643354894
+query_eval_at_column: 2034108046
+query_eval_at_column: 84913890
+query_eval_at_column: 1915132337
+query_eval_at_column: 1478849979
+query_eval_at_column: 1866332986
+query_eval_at_column: 84913890
+query_eval_at_column: 1915132337
+query_eval_at_column: 1478849979
+query_eval_at_column: 1866332986
+query_eval_at_column: 1538223567
+query_eval_at_column: 476031927
+query_eval_at_column: 470101389
+query_eval_at_column: 1857000478
+query_eval_at_column: 380792788
+query_eval_at_column: 1950934512
+query_eval_at_column: 369203552
+query_eval_at_column: 1670644814
+query_eval_at_column: 64732883
+query_eval_at_column: 1950934512
+query_eval_at_column: 369203552
+query_eval_at_column: 1670644814
+query_eval_at_column: 64732883
+query_eval_at_column: 220734185
+query_eval_at_column: 1230135990
+query_eval_at_column: 866319651
+query_eval_at_column: 913816254
+query_eval_at_column: 1558215738
+query_eval_at_column: 835293459
+query_eval_at_column: 270233050
+query_eval_at_column: 920638394
+query_eval_at_column: 1620021987
+query_eval_at_column: 835293459
+query_eval_at_column: 270233050
+query_eval_at_column: 920638394
+query_eval_at_column: 1620021987
+query_eval_at_column: 2008408903
+query_eval_at_column: 1653607172
+query_eval_at_column: 1571715886
+query_eval_at_column: 1139808023
+query_eval_at_column: 1884668816
+query_eval_at_column: 2097312570
+query_eval_at_column: 2005368282
+query_eval_at_column: 1069278462
+query_eval_at_column: 1539426016
+query_eval_at_column: 2097312570
+query_eval_at_column: 2005368282
+query_eval_at_column: 1069278462
+query_eval_at_column: 1539426016
+query_eval_at_column: 692042578
+query_eval_at_column: 262144698
+query_eval_at_column: 212758493
+query_eval_at_column: 76051650
+query_eval_at_column: 2059533013
+query_eval_at_column: 1793984394
+query_eval_at_column: 448374405
+query_eval_at_column: 1127139524
+query_eval_at_column: 1911167052
+query_eval_at_column: 1793984394
+query_eval_at_column: 448374405
+query_eval_at_column: 1127139524
+query_eval_at_column: 1911167052
+query_eval_at_column: 363892137
+query_eval_at_column: 1381877000
+query_eval_at_column: 341528921
+query_eval_at_column: 255602154
+query_eval_at_column: 1809846585
+query_eval_at_column: 1741427353
+query_eval_at_column: 14178837
+query_eval_at_column: 1445553156
+query_eval_at_column: 778961046
+query_eval_at_column: 1741427353
+query_eval_at_column: 14178837
+query_eval_at_column: 1445553156
+query_eval_at_column: 778961046
+query_eval_at_column: 92251113
+query_eval_at_column: 370320274
+query_eval_at_column: 1214843013
+query_eval_at_column: 727313093
+query_eval_at_column: 1383281134
+query_eval_at_column: 1958227421
+query_eval_at_column: 1276203073
+query_eval_at_column: 122998609
+query_eval_at_column: 1819147462
+query_eval_at_column: 1958227421
+query_eval_at_column: 1276203073
+query_eval_at_column: 122998609
+query_eval_at_column: 1819147462
+query_eval_at_column: 725306113
+query_eval_at_column: 2045580745
+query_eval_at_column: 1836208203
+query_eval_at_column: 920662710
+query_eval_at_column: 1213578350
+query_eval_at_column: 761211983
+query_eval_at_column: 1197569004
+query_eval_at_column: 1227516678
+query_eval_at_column: 720505068
+query_eval_at_column: 761211983
+query_eval_at_column: 1197569004
+query_eval_at_column: 1227516678
+query_eval_at_column: 720505068
+query_eval_at_column: 1762027956
+query_eval_at_column: 1213113979
+query_eval_at_column: 66947463
+query_eval_at_column: 1724688411
+query_eval_at_column: 1522310341
+query_eval_at_column: 664787555
+query_eval_at_column: 402086932
+query_eval_at_column: 679579392
+query_eval_at_column: 1067496491
+query_eval_at_column: 664787555
+query_eval_at_column: 402086932
+query_eval_at_column: 679579392
+query_eval_at_column: 1067496491
+query_eval_at_column: 1440439171
+query_eval_at_column: 1516731404
+query_eval_at_column: 1936707342
+query_eval_at_column: 1625493649
+query_eval_at_column: 1200222546
+query_eval_at_column: 896954927
+query_eval_at_column: 857323618
+query_eval_at_column: 519208699
+query_eval_at_column: 239430398
+query_eval_at_column: 896954927
+query_eval_at_column: 857323618
+query_eval_at_column: 519208699
+query_eval_at_column: 239430398
+query_eval_at_column: 1406164938
+query_eval_at_column: 1246323031
+query_eval_at_column: 1656178696
+query_eval_at_column: 1614870101
+query_eval_at_column: 243903314
+query_eval_at_column: 906462234
+query_eval_at_column: 1966707404
+query_eval_at_column: 2024327072
+query_eval_at_column: 636098689
+query_eval_at_column: 906462234
+query_eval_at_column: 1966707404
+query_eval_at_column: 2024327072
+query_eval_at_column: 636098689
+query_eval_at_column: 1991123122
+query_eval_at_column: 1203583487
+query_eval_at_column: 55453552
+query_eval_at_column: 1971131842
+query_eval_at_column: 266496701
+query_eval_at_column: 415734924
+query_eval_at_column: 1011589276
+query_eval_at_column: 1833792269
+query_eval_at_column: 1631606362
+query_eval_at_column: 415734924
+query_eval_at_column: 1011589276
+query_eval_at_column: 1833792269
+query_eval_at_column: 1631606362
+query_eval_at_column: 1389814341
+query_eval_at_column: 358617524
+query_eval_at_column: 127267907
+query_eval_at_column: 425844121
+query_eval_at_column: 195057154
+query_eval_at_column: 670431625
+query_eval_at_column: 1832788462
+query_eval_at_column: 1819920895
+query_eval_at_column: 21209582
+query_eval_at_column: 670431625
+query_eval_at_column: 1832788462
+query_eval_at_column: 1819920895
+query_eval_at_column: 21209582
+query_eval_at_column: 1553073557
+query_eval_at_column: 1559564511
+query_eval_at_column: 1149455535
+query_eval_at_column: 1559526549
+query_eval_at_column: 667234327
+query_eval_at_column: 378373677
+query_eval_at_column: 1361342744
+query_eval_at_column: 1839922514
+query_eval_at_column: 1553073557
+query_eval_at_column: 1559564511
+query_eval_at_column: 1149455535
+query_eval_at_column: 1559526549
+query_eval_at_column: 1007131790
+query_eval_at_column: 776525722
+query_eval_at_column: 94707210
+query_eval_at_column: 1359541896
+query_eval_at_column: 582466418
+query_eval_at_column: 378373677
+query_eval_at_column: 1197522270
+query_eval_at_column: 1412373682
+query_eval_at_column: 1007131790
+query_eval_at_column: 776525722
+query_eval_at_column: 94707210
+query_eval_at_column: 1359541896
+query_eval_at_column: 1682763084
+query_eval_at_column: 671984372
+query_eval_at_column: 1635980308
+query_eval_at_column: 941967087
+query_eval_at_column: 1259454230
+query_eval_at_column: 902205480
+query_eval_at_column: 444613587
+query_eval_at_column: 935849651
+query_eval_at_column: 1682763084
+query_eval_at_column: 671984372
+query_eval_at_column: 1635980308
+query_eval_at_column: 941967087
+query_eval_at_column: 683733732
+query_eval_at_column: 1086936524
+query_eval_at_column: 1822878296
+query_eval_at_column: 2119259314
+query_eval_at_column: 1008376511
+query_eval_at_column: 1613474090
+query_eval_at_column: 1823192854
+query_eval_at_column: 1319305453
+query_eval_at_column: 683733732
+query_eval_at_column: 1086936524
+query_eval_at_column: 1822878296
+query_eval_at_column: 2119259314
+query_eval_at_column: 1097470486
+query_eval_at_column: 525097639
+query_eval_at_column: 1957569404
+query_eval_at_column: 1774329286
+query_eval_at_column: 1827287054
+query_eval_at_column: 2100090832
+query_eval_at_column: 1304021135
+query_eval_at_column: 1539608898
+query_eval_at_column: 1097470486
+query_eval_at_column: 525097639
+query_eval_at_column: 1957569404
+query_eval_at_column: 1774329286
+query_eval_at_column: 2043576892
+query_eval_at_column: 1852221959
+query_eval_at_column: 1812388556
+query_eval_at_column: 1877652059
+query_eval_at_column: 1239668201
+query_eval_at_column: 1866399936
+query_eval_at_column: 123099909
+query_eval_at_column: 2032752300
+query_eval_at_column: 2043576892
+query_eval_at_column: 1852221959
+query_eval_at_column: 1812388556
+query_eval_at_column: 1877652059
+query_eval_at_column: 1328799978
+query_eval_at_column: 918312751
+query_eval_at_column: 2104034815
+query_eval_at_column: 1727335344
+query_eval_at_column: 848283117
+query_eval_at_column: 27346580
+query_eval_at_column: 736259721
+query_eval_at_column: 507338393
+query_eval_at_column: 1328799978
+query_eval_at_column: 918312751
+query_eval_at_column: 2104034815
+query_eval_at_column: 1727335344
+query_eval_at_column: 51853234
+query_eval_at_column: 1899490741
+query_eval_at_column: 145537404
+query_eval_at_column: 1331894156
+query_eval_at_column: 1778798628
+query_eval_at_column: 1953416011
+query_eval_at_column: 28265488
+query_eval_at_column: 2112011265
+query_eval_at_column: 51853234
+query_eval_at_column: 1899490741
+query_eval_at_column: 145537404
+query_eval_at_column: 1331894156
+query_eval_at_column: 1412735161
+query_eval_at_column: 1709144611
+query_eval_at_column: 206866072
+query_eval_at_column: 1931286923
+query_eval_at_column: 479989318
+query_eval_at_column: 820124582
+query_eval_at_column: 1835129861
+query_eval_at_column: 30875559
+query_eval_at_column: 1412735161
+query_eval_at_column: 1709144611
+query_eval_at_column: 206866072
+query_eval_at_column: 1931286923
+query_eval_at_column: 969428650
+query_eval_at_column: 1182081554
+query_eval_at_column: 350852419
+query_eval_at_column: 1162464194
+query_eval_at_column: 421357227
+query_eval_at_column: 820124582
+query_eval_at_column: 1276920816
+query_eval_at_column: 424263632
+query_eval_at_column: 969428650
+query_eval_at_column: 1182081554
+query_eval_at_column: 350852419
+query_eval_at_column: 1162464194
+query_eval_at_column: 1506649091
+query_eval_at_column: 794021361
+query_eval_at_column: 888032553
+query_eval_at_column: 1336206573
+query_eval_at_column: 2086640270
+query_eval_at_column: 798168698
+query_eval_at_column: 229705192
+query_eval_at_column: 79536504
+query_eval_at_column: 1506649091
+query_eval_at_column: 794021361
+query_eval_at_column: 888032553
+query_eval_at_column: 1336206573
+query_eval_at_column: 1713570558
+query_eval_at_column: 164793352
+query_eval_at_column: 1800298551
+query_eval_at_column: 194788332
+query_eval_at_column: 1595846755
+query_eval_at_column: 1907504722
+query_eval_at_column: 1216855379
+query_eval_at_column: 850882530
+query_eval_at_column: 1713570558
+query_eval_at_column: 164793352
+query_eval_at_column: 1800298551
+query_eval_at_column: 194788332
+query_eval_at_column: 29543213
+query_eval_at_column: 188377494
+query_eval_at_column: 100109281
+query_eval_at_column: 1599262816
+query_eval_at_column: 1272677334
+query_eval_at_column: 1427131725
+query_eval_at_column: 1124529349
+query_eval_at_column: 1614739969
+query_eval_at_column: 29543213
+query_eval_at_column: 188377494
+query_eval_at_column: 100109281
+query_eval_at_column: 1599262816
+query_eval_at_column: 717163093
+query_eval_at_column: 297916836
+query_eval_at_column: 797521241
+query_eval_at_column: 1898781527
+query_eval_at_column: 48247212
+query_eval_at_column: 1427131725
+query_eval_at_column: 190990307
+query_eval_at_column: 1629360692
+query_eval_at_column: 717163093
+query_eval_at_column: 297916836
+query_eval_at_column: 797521241
+query_eval_at_column: 1898781527
+query_eval_at_column: 1089859806
+query_eval_at_column: 1384464369
+query_eval_at_column: 977984810
+query_eval_at_column: 636446660
+query_eval_at_column: 501657066
+query_eval_at_column: 1297215321
+query_eval_at_column: 1945203066
+query_eval_at_column: 1097628360
+query_eval_at_column: 1089859806
+query_eval_at_column: 1384464369
+query_eval_at_column: 977984810
+query_eval_at_column: 636446660
+query_eval_at_column: 376126423
+query_eval_at_column: 1
+query_eval_at_column: 5
+query_eval_at_column: 5
+query_eval_at_column: 0
+query_eval_at_column: 1
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 1
+query_eval_at_column: 32767
+query_eval_at_column: 32767
+query_eval_at_column: 32769
+query_eval_at_column: 1
+query_eval_at_column: 1
+query_eval_at_column: 1
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 1
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 511
+query_eval_at_column: 63
+query_eval_at_column: 3
+query_eval_at_column: 511
+query_eval_at_column: 15
+query_eval_at_column: 1
+query_eval_at_column: 0
+query_eval_at_column: 4
+query_eval_at_column: 0
+query_eval_at_column: 594676205
+query_eval_at_column: 863170483
+query_eval_at_column: 1707726642
+query_eval_at_column: 2091708332
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 1936912307
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 863170483
+query_eval_at_column: 645022168
+query_eval_at_column: 624786615
+query_eval_at_column: 1074557570
+query_eval_at_column: 498072705
+query_eval_at_column: 0
+query_eval_at_column: 1092748910
+query_eval_at_column: 1504505692
+query_eval_at_column: 0
+query_eval_at_column: 1634764238
+query_eval_at_column: 897767731
+query_eval_at_column: 1361863298
+query_eval_at_column: 1695320215
+query_eval_at_column: 1793685039
+query_eval_at_column: 1119806392
+query_eval_at_column: 1866507690
+query_eval_at_column: 1093727083
+query_eval_at_column: 1290565560
+query_eval_at_column: 277971535
+query_eval_at_column: 274855122
+query_eval_at_column: 2112104071
+query_eval_at_column: 1246566984
+query_eval_at_column: 222750731
+query_eval_at_column: 1801032763
+query_eval_at_column: 38308948
+query_eval_at_column: 1008700714
+query_eval_at_column: 2054500536
+query_eval_at_column: 83147820
+query_eval_at_column: 1078494775
+query_eval_at_column: 1843779703
+query_eval_at_column: 640698680
+query_eval_at_column: 145059652
+query_eval_at_column: 783017885
+query_eval_at_column: 1738304270
+query_eval_at_column: 1603946887
+query_eval_at_column: 896221633
+query_eval_at_column: 156392017
+query_eval_at_column: 972075501
+query_eval_at_column: 693896091
+query_eval_at_column: 383033960
+query_eval_at_column: 339375760
+query_eval_at_column: 1339161035
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 995044857
+query_eval_at_column: 1347087304
+query_eval_at_column: 475441352
+query_eval_at_column: 8566266
+query_eval_at_column: 1990089714
+query_eval_at_column: 546690961
+query_eval_at_column: 950882704
+query_eval_at_column: 17132532
+query_eval_at_column: 837650924
+query_eval_at_column: 1893778265
+query_eval_at_column: 1426324056
+query_eval_at_column: 25698798
+query_eval_at_column: 1832695781
+query_eval_at_column: 1093381922
+query_eval_at_column: 1901765408
+query_eval_at_column: 34265064
+query_eval_at_column: 680256991
+query_eval_at_column: 292985579
+query_eval_at_column: 229723113
+query_eval_at_column: 42831330
+query_eval_at_column: 1675301848
+query_eval_at_column: 1640072883
+query_eval_at_column: 705164465
+query_eval_at_column: 51397596
+query_eval_at_column: 522863058
+query_eval_at_column: 839676540
+query_eval_at_column: 1180605817
+query_eval_at_column: 59963862
+query_eval_at_column: 1517907915
+query_eval_at_column: 39280197
+query_eval_at_column: 1656047169
+query_eval_at_column: 68530128
+query_eval_at_column: 365469125
+query_eval_at_column: 1386367501
+query_eval_at_column: 2131488521
+query_eval_at_column: 77096394
+query_eval_at_column: 1360513982
+query_eval_at_column: 585971158
+query_eval_at_column: 459446226
+query_eval_at_column: 85662660
+query_eval_at_column: 208075192
+query_eval_at_column: 1933058462
+query_eval_at_column: 934887578
+query_eval_at_column: 94228926
+query_eval_at_column: 1203120049
+query_eval_at_column: 1132662119
+query_eval_at_column: 1410328930
+query_eval_at_column: 102795192
+query_eval_at_column: 50681259
+query_eval_at_column: 332265776
+query_eval_at_column: 1885770282
+query_eval_at_column: 111361458
+query_eval_at_column: 1713816116
+query_eval_at_column: 1155526930
+query_eval_at_column: 2002537512
+query_eval_at_column: 1059452421
+query_eval_at_column: 2011106061
+query_eval_at_column: 1778573831
+query_eval_at_column: 176685955
+query_eval_at_column: 577397680
+query_eval_at_column: 7534782
+query_eval_at_column: 1098529461
+query_eval_at_column: 233472847
+query_eval_at_column: 1964693132
+query_eval_at_column: 527075952
+query_eval_at_column: 2021595569
+query_eval_at_column: 353463604
+query_eval_at_column: 1374062289
+query_eval_at_column: 1096512453
+query_eval_at_column: 1140904229
+query_eval_at_column: 225465755
+query_eval_at_column: 443784864
+query_eval_at_column: 246893348
+query_eval_at_column: 257481847
+query_eval_at_column: 1863152598
+query_eval_at_column: 1912058831
+query_eval_at_column: 277971535
+query_eval_at_column: 274855122
+query_eval_at_column: 2112104071
+query_eval_at_column: 1246566984
+query_eval_at_column: 640698680
+query_eval_at_column: 145059652
+query_eval_at_column: 783017885
+query_eval_at_column: 1738304270
+query_eval_at_column: 693896091
+query_eval_at_column: 383033960
+query_eval_at_column: 339375760
+query_eval_at_column: 1339161035
+query_eval_at_column: 1713816116
+query_eval_at_column: 1155526930
+query_eval_at_column: 2002537512
+query_eval_at_column: 1059452421
+query_eval_at_column: 246893348
+query_eval_at_column: 257481847
+query_eval_at_column: 1863152598
+query_eval_at_column: 1912058831
+query_eval_at_column: 277971535
+query_eval_at_column: 274855122
+query_eval_at_column: 2112104071
+query_eval_at_column: 1246566984
+query_eval_at_column: 797137841
+query_eval_at_column: 1
+query_eval_at_column: 5
+query_eval_at_column: 5
+query_eval_at_column: 0
+query_eval_at_column: 1
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 1
+query_eval_at_column: 32767
+query_eval_at_column: 32767
+query_eval_at_column: 32769
+query_eval_at_column: 1
+query_eval_at_column: 1
+query_eval_at_column: 1
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 1
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 511
+query_eval_at_column: 63
+query_eval_at_column: 3
+query_eval_at_column: 511
+query_eval_at_column: 15
+query_eval_at_column: 1
+query_eval_at_column: 0
+query_eval_at_column: 4
+query_eval_at_column: 0
+query_eval_at_column: 1772857345
+query_eval_at_column: 1722190238
+query_eval_at_column: 1607654784
+query_eval_at_column: 1991394822
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 648448415
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 1722190238
+query_eval_at_column: 187557955
+query_eval_at_column: 1985813172
+query_eval_at_column: 1463027468
+query_eval_at_column: 958256528
+query_eval_at_column: 0
+query_eval_at_column: 583630226
+query_eval_at_column: 1041067717
+query_eval_at_column: 0
+query_eval_at_column: 1603116829
+query_eval_at_column: 897767731
+query_eval_at_column: 1361863298
+query_eval_at_column: 1695320215
+query_eval_at_column: 1793685039
+query_eval_at_column: 1119806392
+query_eval_at_column: 1866507690
+query_eval_at_column: 1093727083
+query_eval_at_column: 1290565560
+query_eval_at_column: 1314475209
+query_eval_at_column: 1213797502
+query_eval_at_column: 2081147155
+query_eval_at_column: 419489149
+query_eval_at_column: 222750731
+query_eval_at_column: 1801032763
+query_eval_at_column: 38308948
+query_eval_at_column: 1008700714
+query_eval_at_column: 2054500536
+query_eval_at_column: 83147820
+query_eval_at_column: 1078494775
+query_eval_at_column: 1843779703
+query_eval_at_column: 156103261
+query_eval_at_column: 624889344
+query_eval_at_column: 1056768057
+query_eval_at_column: 18597360
+query_eval_at_column: 873921510
+query_eval_at_column: 1860888635
+query_eval_at_column: 834954578
+query_eval_at_column: 126399723
+query_eval_at_column: 596284795
+query_eval_at_column: 791435265
+query_eval_at_column: 1783141356
+query_eval_at_column: 527008202
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 995044857
+query_eval_at_column: 1347087304
+query_eval_at_column: 475441352
+query_eval_at_column: 8566266
+query_eval_at_column: 1990089714
+query_eval_at_column: 546690961
+query_eval_at_column: 950882704
+query_eval_at_column: 17132532
+query_eval_at_column: 837650924
+query_eval_at_column: 1893778265
+query_eval_at_column: 1426324056
+query_eval_at_column: 25698798
+query_eval_at_column: 1832695781
+query_eval_at_column: 1093381922
+query_eval_at_column: 1901765408
+query_eval_at_column: 34265064
+query_eval_at_column: 680256991
+query_eval_at_column: 292985579
+query_eval_at_column: 229723113
+query_eval_at_column: 42831330
+query_eval_at_column: 1675301848
+query_eval_at_column: 1640072883
+query_eval_at_column: 705164465
+query_eval_at_column: 51397596
+query_eval_at_column: 522863058
+query_eval_at_column: 839676540
+query_eval_at_column: 1180605817
+query_eval_at_column: 59963862
+query_eval_at_column: 1517907915
+query_eval_at_column: 39280197
+query_eval_at_column: 1656047169
+query_eval_at_column: 68530128
+query_eval_at_column: 365469125
+query_eval_at_column: 1386367501
+query_eval_at_column: 2131488521
+query_eval_at_column: 77096394
+query_eval_at_column: 1360513982
+query_eval_at_column: 585971158
+query_eval_at_column: 459446226
+query_eval_at_column: 85662660
+query_eval_at_column: 208075192
+query_eval_at_column: 1933058462
+query_eval_at_column: 934887578
+query_eval_at_column: 94228926
+query_eval_at_column: 1203120049
+query_eval_at_column: 1132662119
+query_eval_at_column: 1410328930
+query_eval_at_column: 102795192
+query_eval_at_column: 50681259
+query_eval_at_column: 332265776
+query_eval_at_column: 1885770282
+query_eval_at_column: 111361458
+query_eval_at_column: 1036371041
+query_eval_at_column: 1275510797
+query_eval_at_column: 116776507
+query_eval_at_column: 1977872746
+query_eval_at_column: 305045097
+query_eval_at_column: 170602693
+query_eval_at_column: 1243828046
+query_eval_at_column: 594760511
+query_eval_at_column: 1488087822
+query_eval_at_column: 326492411
+query_eval_at_column: 368961769
+query_eval_at_column: 1387373272
+query_eval_at_column: 1634604231
+query_eval_at_column: 1441080042
+query_eval_at_column: 1666534080
+query_eval_at_column: 1428591198
+query_eval_at_column: 1430799128
+query_eval_at_column: 680053276
+query_eval_at_column: 1961855351
+query_eval_at_column: 1656642795
+query_eval_at_column: 819247943
+query_eval_at_column: 1078779427
+query_eval_at_column: 336668894
+query_eval_at_column: 1480496998
+query_eval_at_column: 1314475209
+query_eval_at_column: 1213797502
+query_eval_at_column: 2081147155
+query_eval_at_column: 419489149
+query_eval_at_column: 156103261
+query_eval_at_column: 624889344
+query_eval_at_column: 1056768057
+query_eval_at_column: 18597360
+query_eval_at_column: 596284795
+query_eval_at_column: 791435265
+query_eval_at_column: 1783141356
+query_eval_at_column: 527008202
+query_eval_at_column: 1036371041
+query_eval_at_column: 1275510797
+query_eval_at_column: 116776507
+query_eval_at_column: 1977872746
+query_eval_at_column: 819247943
+query_eval_at_column: 1078779427
+query_eval_at_column: 336668894
+query_eval_at_column: 1480496998
+query_eval_at_column: 1314475209
+query_eval_at_column: 1213797502
+query_eval_at_column: 2081147155
+query_eval_at_column: 419489149
+query_eval_at_column: 289775903
+query_eval_at_column: 1
+query_eval_at_column: 5
+query_eval_at_column: 5
+query_eval_at_column: 0
+query_eval_at_column: 1
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 1
+query_eval_at_column: 32767
+query_eval_at_column: 32767
+query_eval_at_column: 32769
+query_eval_at_column: 1
+query_eval_at_column: 1
+query_eval_at_column: 1
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 1
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 511
+query_eval_at_column: 63
+query_eval_at_column: 3
+query_eval_at_column: 511
+query_eval_at_column: 15
+query_eval_at_column: 1
+query_eval_at_column: 0
+query_eval_at_column: 4
+query_eval_at_column: 0
+query_eval_at_column: 1619603092
+query_eval_at_column: 1856766077
+query_eval_at_column: 64823450
+query_eval_at_column: 1353919297
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 783024254
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 1856766077
+query_eval_at_column: 1102309685
+query_eval_at_column: 680809821
+query_eval_at_column: 2046598437
+query_eval_at_column: 734565559
+query_eval_at_column: 0
+query_eval_at_column: 206685004
+query_eval_at_column: 1159103612
+query_eval_at_column: 0
+query_eval_at_column: 1995295034
+query_eval_at_column: 897767731
+query_eval_at_column: 1361863298
+query_eval_at_column: 1695320215
+query_eval_at_column: 1793685039
+query_eval_at_column: 1119806392
+query_eval_at_column: 1866507690
+query_eval_at_column: 1093727083
+query_eval_at_column: 1290565560
+query_eval_at_column: 1785226094
+query_eval_at_column: 1148478371
+query_eval_at_column: 1674132121
+query_eval_at_column: 1931407835
+query_eval_at_column: 222750731
+query_eval_at_column: 1801032763
+query_eval_at_column: 38308948
+query_eval_at_column: 1008700714
+query_eval_at_column: 2054500536
+query_eval_at_column: 83147820
+query_eval_at_column: 1078494775
+query_eval_at_column: 1843779703
+query_eval_at_column: 91552010
+query_eval_at_column: 1109998373
+query_eval_at_column: 948443316
+query_eval_at_column: 2099121448
+query_eval_at_column: 1861797390
+query_eval_at_column: 659319875
+query_eval_at_column: 2012121107
+query_eval_at_column: 847754577
+query_eval_at_column: 588925732
+query_eval_at_column: 1588140468
+query_eval_at_column: 1371235302
+query_eval_at_column: 28904877
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 995044857
+query_eval_at_column: 1347087304
+query_eval_at_column: 475441352
+query_eval_at_column: 8566266
+query_eval_at_column: 1990089714
+query_eval_at_column: 546690961
+query_eval_at_column: 950882704
+query_eval_at_column: 17132532
+query_eval_at_column: 837650924
+query_eval_at_column: 1893778265
+query_eval_at_column: 1426324056
+query_eval_at_column: 25698798
+query_eval_at_column: 1832695781
+query_eval_at_column: 1093381922
+query_eval_at_column: 1901765408
+query_eval_at_column: 34265064
+query_eval_at_column: 680256991
+query_eval_at_column: 292985579
+query_eval_at_column: 229723113
+query_eval_at_column: 42831330
+query_eval_at_column: 1675301848
+query_eval_at_column: 1640072883
+query_eval_at_column: 705164465
+query_eval_at_column: 51397596
+query_eval_at_column: 522863058
+query_eval_at_column: 839676540
+query_eval_at_column: 1180605817
+query_eval_at_column: 59963862
+query_eval_at_column: 1517907915
+query_eval_at_column: 39280197
+query_eval_at_column: 1656047169
+query_eval_at_column: 68530128
+query_eval_at_column: 365469125
+query_eval_at_column: 1386367501
+query_eval_at_column: 2131488521
+query_eval_at_column: 77096394
+query_eval_at_column: 1360513982
+query_eval_at_column: 585971158
+query_eval_at_column: 459446226
+query_eval_at_column: 85662660
+query_eval_at_column: 208075192
+query_eval_at_column: 1933058462
+query_eval_at_column: 934887578
+query_eval_at_column: 94228926
+query_eval_at_column: 1203120049
+query_eval_at_column: 1132662119
+query_eval_at_column: 1410328930
+query_eval_at_column: 102795192
+query_eval_at_column: 50681259
+query_eval_at_column: 332265776
+query_eval_at_column: 1885770282
+query_eval_at_column: 111361458
+query_eval_at_column: 1950662927
+query_eval_at_column: 2122011764
+query_eval_at_column: 1293994480
+query_eval_at_column: 683147241
+query_eval_at_column: 1148625375
+query_eval_at_column: 1759882398
+query_eval_at_column: 306770036
+query_eval_at_column: 1578932006
+query_eval_at_column: 1978367474
+query_eval_at_column: 211772925
+query_eval_at_column: 910550853
+query_eval_at_column: 1878556641
+query_eval_at_column: 665892352
+query_eval_at_column: 764823718
+query_eval_at_column: 1859458797
+query_eval_at_column: 2024406037
+query_eval_at_column: 349280910
+query_eval_at_column: 1003671528
+query_eval_at_column: 1366960715
+query_eval_at_column: 519992439
+query_eval_at_column: 716477456
+query_eval_at_column: 1406493420
+query_eval_at_column: 399984714
+query_eval_at_column: 1614694702
+query_eval_at_column: 1785226094
+query_eval_at_column: 1148478371
+query_eval_at_column: 1674132121
+query_eval_at_column: 1931407835
+query_eval_at_column: 91552010
+query_eval_at_column: 1109998373
+query_eval_at_column: 948443316
+query_eval_at_column: 2099121448
+query_eval_at_column: 588925732
+query_eval_at_column: 1588140468
+query_eval_at_column: 1371235302
+query_eval_at_column: 28904877
+query_eval_at_column: 1950662927
+query_eval_at_column: 2122011764
+query_eval_at_column: 1293994480
+query_eval_at_column: 683147241
+query_eval_at_column: 716477456
+query_eval_at_column: 1406493420
+query_eval_at_column: 399984714
+query_eval_at_column: 1614694702
+query_eval_at_column: 1785226094
+query_eval_at_column: 1148478371
+query_eval_at_column: 1674132121
+query_eval_at_column: 1931407835
+query_eval_at_column: 1899739707
+query_eval_at_column: 1
+query_eval_at_column: 5
+query_eval_at_column: 5
+query_eval_at_column: 0
+query_eval_at_column: 1
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 1
+query_eval_at_column: 32767
+query_eval_at_column: 32767
+query_eval_at_column: 32769
+query_eval_at_column: 1
+query_eval_at_column: 1
+query_eval_at_column: 1
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 1
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 511
+query_eval_at_column: 63
+query_eval_at_column: 3
+query_eval_at_column: 511
+query_eval_at_column: 15
+query_eval_at_column: 1
+query_eval_at_column: 0
+query_eval_at_column: 4
+query_eval_at_column: 0
+query_eval_at_column: 1074296074
+query_eval_at_column: 1856798845
+query_eval_at_column: 62446733
+query_eval_at_column: 1456217116
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 783057022
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 1856798845
+query_eval_at_column: 2003692819
+query_eval_at_column: 927608464
+query_eval_at_column: 104381833
+query_eval_at_column: 1240936702
+query_eval_at_column: 0
+query_eval_at_column: 167749129
+query_eval_at_column: 1156507887
+query_eval_at_column: 0
+query_eval_at_column: 1455179466
+query_eval_at_column: 897767731
+query_eval_at_column: 1361863298
+query_eval_at_column: 1695320215
+query_eval_at_column: 1793685039
+query_eval_at_column: 1119806392
+query_eval_at_column: 1866507690
+query_eval_at_column: 1093727083
+query_eval_at_column: 1290565560
+query_eval_at_column: 157358687
+query_eval_at_column: 1242619523
+query_eval_at_column: 1338917507
+query_eval_at_column: 1686001793
+query_eval_at_column: 222750731
+query_eval_at_column: 1801032763
+query_eval_at_column: 38308948
+query_eval_at_column: 1008700714
+query_eval_at_column: 2054500536
+query_eval_at_column: 83147820
+query_eval_at_column: 1078494775
+query_eval_at_column: 1843779703
+query_eval_at_column: 478340713
+query_eval_at_column: 987558836
+query_eval_at_column: 991003743
+query_eval_at_column: 473819395
+query_eval_at_column: 2015968204
+query_eval_at_column: 247101920
+query_eval_at_column: 915298270
+query_eval_at_column: 1797624483
+query_eval_at_column: 551422066
+query_eval_at_column: 1148469469
+query_eval_at_column: 237056491
+query_eval_at_column: 929740970
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 995044857
+query_eval_at_column: 1347087304
+query_eval_at_column: 475441352
+query_eval_at_column: 8566266
+query_eval_at_column: 1990089714
+query_eval_at_column: 546690961
+query_eval_at_column: 950882704
+query_eval_at_column: 17132532
+query_eval_at_column: 837650924
+query_eval_at_column: 1893778265
+query_eval_at_column: 1426324056
+query_eval_at_column: 25698798
+query_eval_at_column: 1832695781
+query_eval_at_column: 1093381922
+query_eval_at_column: 1901765408
+query_eval_at_column: 34265064
+query_eval_at_column: 680256991
+query_eval_at_column: 292985579
+query_eval_at_column: 229723113
+query_eval_at_column: 42831330
+query_eval_at_column: 1675301848
+query_eval_at_column: 1640072883
+query_eval_at_column: 705164465
+query_eval_at_column: 51397596
+query_eval_at_column: 522863058
+query_eval_at_column: 839676540
+query_eval_at_column: 1180605817
+query_eval_at_column: 59963862
+query_eval_at_column: 1517907915
+query_eval_at_column: 39280197
+query_eval_at_column: 1656047169
+query_eval_at_column: 68530128
+query_eval_at_column: 365469125
+query_eval_at_column: 1386367501
+query_eval_at_column: 2131488521
+query_eval_at_column: 77096394
+query_eval_at_column: 1360513982
+query_eval_at_column: 585971158
+query_eval_at_column: 459446226
+query_eval_at_column: 85662660
+query_eval_at_column: 208075192
+query_eval_at_column: 1933058462
+query_eval_at_column: 934887578
+query_eval_at_column: 94228926
+query_eval_at_column: 1203120049
+query_eval_at_column: 1132662119
+query_eval_at_column: 1410328930
+query_eval_at_column: 102795192
+query_eval_at_column: 50681259
+query_eval_at_column: 332265776
+query_eval_at_column: 1885770282
+query_eval_at_column: 111361458
+query_eval_at_column: 794295516
+query_eval_at_column: 657186832
+query_eval_at_column: 191897652
+query_eval_at_column: 1355624067
+query_eval_at_column: 979343258
+query_eval_at_column: 857955969
+query_eval_at_column: 628116804
+query_eval_at_column: 36144855
+query_eval_at_column: 1186650959
+query_eval_at_column: 938065087
+query_eval_at_column: 337024158
+query_eval_at_column: 323862711
+query_eval_at_column: 230448375
+query_eval_at_column: 347646148
+query_eval_at_column: 1556010497
+query_eval_at_column: 835151686
+query_eval_at_column: 636491626
+query_eval_at_column: 1874399971
+query_eval_at_column: 209760458
+query_eval_at_column: 170177055
+query_eval_at_column: 1864240143
+query_eval_at_column: 1358442841
+query_eval_at_column: 2130986433
+query_eval_at_column: 1389021798
+query_eval_at_column: 157358687
+query_eval_at_column: 1242619523
+query_eval_at_column: 1338917507
+query_eval_at_column: 1686001793
+query_eval_at_column: 478340713
+query_eval_at_column: 987558836
+query_eval_at_column: 991003743
+query_eval_at_column: 473819395
+query_eval_at_column: 551422066
+query_eval_at_column: 1148469469
+query_eval_at_column: 237056491
+query_eval_at_column: 929740970
+query_eval_at_column: 794295516
+query_eval_at_column: 657186832
+query_eval_at_column: 191897652
+query_eval_at_column: 1355624067
+query_eval_at_column: 1864240143
+query_eval_at_column: 1358442841
+query_eval_at_column: 2130986433
+query_eval_at_column: 1389021798
+query_eval_at_column: 157358687
+query_eval_at_column: 1242619523
+query_eval_at_column: 1338917507
+query_eval_at_column: 1686001793
+query_eval_at_column: 240638979
+query_eval_at_column: 1
+query_eval_at_column: 5
+query_eval_at_column: 5
+query_eval_at_column: 0
+query_eval_at_column: 1
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 1
+query_eval_at_column: 32767
+query_eval_at_column: 32767
+query_eval_at_column: 32769
+query_eval_at_column: 1
+query_eval_at_column: 1
+query_eval_at_column: 1
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 1
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 511
+query_eval_at_column: 63
+query_eval_at_column: 3
+query_eval_at_column: 511
+query_eval_at_column: 15
+query_eval_at_column: 1
+query_eval_at_column: 0
+query_eval_at_column: 4
+query_eval_at_column: 0
+query_eval_at_column: 980823080
+query_eval_at_column: 946856874
+query_eval_at_column: 11411262
+query_eval_at_column: 1445951753
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 2020598698
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 946856874
+query_eval_at_column: 2008829905
+query_eval_at_column: 191441263
+query_eval_at_column: 559950390
+query_eval_at_column: 572613778
+query_eval_at_column: 0
+query_eval_at_column: 1553436858
+query_eval_at_column: 962555916
+query_eval_at_column: 0
+query_eval_at_column: 1109272327
+query_eval_at_column: 897767731
+query_eval_at_column: 1361863298
+query_eval_at_column: 1695320215
+query_eval_at_column: 1793685039
+query_eval_at_column: 1119806392
+query_eval_at_column: 1866507690
+query_eval_at_column: 1093727083
+query_eval_at_column: 1290565560
+query_eval_at_column: 1828472506
+query_eval_at_column: 546846152
+query_eval_at_column: 461198080
+query_eval_at_column: 179202740
+query_eval_at_column: 222750731
+query_eval_at_column: 1801032763
+query_eval_at_column: 38308948
+query_eval_at_column: 1008700714
+query_eval_at_column: 2054500536
+query_eval_at_column: 83147820
+query_eval_at_column: 1078494775
+query_eval_at_column: 1843779703
+query_eval_at_column: 1002325056
+query_eval_at_column: 364451816
+query_eval_at_column: 1330361253
+query_eval_at_column: 1175422886
+query_eval_at_column: 936331662
+query_eval_at_column: 1789168816
+query_eval_at_column: 438360306
+query_eval_at_column: 994364489
+query_eval_at_column: 1330980197
+query_eval_at_column: 928731332
+query_eval_at_column: 853644203
+query_eval_at_column: 223517955
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 995044857
+query_eval_at_column: 1347087304
+query_eval_at_column: 475441352
+query_eval_at_column: 8566266
+query_eval_at_column: 1990089714
+query_eval_at_column: 546690961
+query_eval_at_column: 950882704
+query_eval_at_column: 17132532
+query_eval_at_column: 837650924
+query_eval_at_column: 1893778265
+query_eval_at_column: 1426324056
+query_eval_at_column: 25698798
+query_eval_at_column: 1832695781
+query_eval_at_column: 1093381922
+query_eval_at_column: 1901765408
+query_eval_at_column: 34265064
+query_eval_at_column: 680256991
+query_eval_at_column: 292985579
+query_eval_at_column: 229723113
+query_eval_at_column: 42831330
+query_eval_at_column: 1675301848
+query_eval_at_column: 1640072883
+query_eval_at_column: 705164465
+query_eval_at_column: 51397596
+query_eval_at_column: 522863058
+query_eval_at_column: 839676540
+query_eval_at_column: 1180605817
+query_eval_at_column: 59963862
+query_eval_at_column: 1517907915
+query_eval_at_column: 39280197
+query_eval_at_column: 1656047169
+query_eval_at_column: 68530128
+query_eval_at_column: 365469125
+query_eval_at_column: 1386367501
+query_eval_at_column: 2131488521
+query_eval_at_column: 77096394
+query_eval_at_column: 1360513982
+query_eval_at_column: 585971158
+query_eval_at_column: 459446226
+query_eval_at_column: 85662660
+query_eval_at_column: 208075192
+query_eval_at_column: 1933058462
+query_eval_at_column: 934887578
+query_eval_at_column: 94228926
+query_eval_at_column: 1203120049
+query_eval_at_column: 1132662119
+query_eval_at_column: 1410328930
+query_eval_at_column: 102795192
+query_eval_at_column: 50681259
+query_eval_at_column: 332265776
+query_eval_at_column: 1885770282
+query_eval_at_column: 111361458
+query_eval_at_column: 2071592321
+query_eval_at_column: 1817545808
+query_eval_at_column: 587783342
+query_eval_at_column: 436702526
+query_eval_at_column: 1545963457
+query_eval_at_column: 45926837
+query_eval_at_column: 1940281123
+query_eval_at_column: 1815115067
+query_eval_at_column: 660300187
+query_eval_at_column: 372568290
+query_eval_at_column: 12893477
+query_eval_at_column: 351711873
+query_eval_at_column: 688106429
+query_eval_at_column: 395893371
+query_eval_at_column: 312810790
+query_eval_at_column: 815816096
+query_eval_at_column: 1472524693
+query_eval_at_column: 1213772852
+query_eval_at_column: 841591751
+query_eval_at_column: 2001691449
+query_eval_at_column: 302745748
+query_eval_at_column: 2012889568
+query_eval_at_column: 17292597
+query_eval_at_column: 177712611
+query_eval_at_column: 1828472506
+query_eval_at_column: 546846152
+query_eval_at_column: 461198080
+query_eval_at_column: 179202740
+query_eval_at_column: 1002325056
+query_eval_at_column: 364451816
+query_eval_at_column: 1330361253
+query_eval_at_column: 1175422886
+query_eval_at_column: 1330980197
+query_eval_at_column: 928731332
+query_eval_at_column: 853644203
+query_eval_at_column: 223517955
+query_eval_at_column: 2071592321
+query_eval_at_column: 1817545808
+query_eval_at_column: 587783342
+query_eval_at_column: 436702526
+query_eval_at_column: 302745748
+query_eval_at_column: 2012889568
+query_eval_at_column: 17292597
+query_eval_at_column: 177712611
+query_eval_at_column: 1828472506
+query_eval_at_column: 546846152
+query_eval_at_column: 461198080
+query_eval_at_column: 179202740
+query_eval_at_column: 1238855656
+query_eval_at_column: 1
+query_eval_at_column: 5
+query_eval_at_column: 5
+query_eval_at_column: 0
+query_eval_at_column: 1
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 1
+query_eval_at_column: 32767
+query_eval_at_column: 32767
+query_eval_at_column: 32769
+query_eval_at_column: 1
+query_eval_at_column: 1
+query_eval_at_column: 1
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 1
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 511
+query_eval_at_column: 63
+query_eval_at_column: 3
+query_eval_at_column: 511
+query_eval_at_column: 15
+query_eval_at_column: 1
+query_eval_at_column: 0
+query_eval_at_column: 4
+query_eval_at_column: 0
+query_eval_at_column: 1072737999
+query_eval_at_column: 946889642
+query_eval_at_column: 950800114
+query_eval_at_column: 2109047079
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 2020631466
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 946889642
+query_eval_at_column: 456328298
+query_eval_at_column: 1865180953
+query_eval_at_column: 1695047998
+query_eval_at_column: 244157363
+query_eval_at_column: 0
+query_eval_at_column: 1316895362
+query_eval_at_column: 660455330
+query_eval_at_column: 0
+query_eval_at_column: 1805388418
+query_eval_at_column: 897767731
+query_eval_at_column: 1361863298
+query_eval_at_column: 1695320215
+query_eval_at_column: 1793685039
+query_eval_at_column: 1119806392
+query_eval_at_column: 1866507690
+query_eval_at_column: 1093727083
+query_eval_at_column: 1290565560
+query_eval_at_column: 114112275
+query_eval_at_column: 1844251742
+query_eval_at_column: 404367901
+query_eval_at_column: 1290723241
+query_eval_at_column: 222750731
+query_eval_at_column: 1801032763
+query_eval_at_column: 38308948
+query_eval_at_column: 1008700714
+query_eval_at_column: 2054500536
+query_eval_at_column: 83147820
+query_eval_at_column: 1078494775
+query_eval_at_column: 1843779703
+query_eval_at_column: 1715051314
+query_eval_at_column: 1733105393
+query_eval_at_column: 609085806
+query_eval_at_column: 1397517957
+query_eval_at_column: 853297490
+query_eval_at_column: 1034528937
+query_eval_at_column: 1780217753
+query_eval_at_column: 2089805020
+query_eval_at_column: 211754127
+query_eval_at_column: 866438163
+query_eval_at_column: 753912230
+query_eval_at_column: 680308943
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 995044857
+query_eval_at_column: 1347087304
+query_eval_at_column: 475441352
+query_eval_at_column: 8566266
+query_eval_at_column: 1990089714
+query_eval_at_column: 546690961
+query_eval_at_column: 950882704
+query_eval_at_column: 17132532
+query_eval_at_column: 837650924
+query_eval_at_column: 1893778265
+query_eval_at_column: 1426324056
+query_eval_at_column: 25698798
+query_eval_at_column: 1832695781
+query_eval_at_column: 1093381922
+query_eval_at_column: 1901765408
+query_eval_at_column: 34265064
+query_eval_at_column: 680256991
+query_eval_at_column: 292985579
+query_eval_at_column: 229723113
+query_eval_at_column: 42831330
+query_eval_at_column: 1675301848
+query_eval_at_column: 1640072883
+query_eval_at_column: 705164465
+query_eval_at_column: 51397596
+query_eval_at_column: 522863058
+query_eval_at_column: 839676540
+query_eval_at_column: 1180605817
+query_eval_at_column: 59963862
+query_eval_at_column: 1517907915
+query_eval_at_column: 39280197
+query_eval_at_column: 1656047169
+query_eval_at_column: 68530128
+query_eval_at_column: 365469125
+query_eval_at_column: 1386367501
+query_eval_at_column: 2131488521
+query_eval_at_column: 77096394
+query_eval_at_column: 1360513982
+query_eval_at_column: 585971158
+query_eval_at_column: 459446226
+query_eval_at_column: 85662660
+query_eval_at_column: 208075192
+query_eval_at_column: 1933058462
+query_eval_at_column: 934887578
+query_eval_at_column: 94228926
+query_eval_at_column: 1203120049
+query_eval_at_column: 1132662119
+query_eval_at_column: 1410328930
+query_eval_at_column: 102795192
+query_eval_at_column: 50681259
+query_eval_at_column: 332265776
+query_eval_at_column: 1885770282
+query_eval_at_column: 111361458
+query_eval_at_column: 673366122
+query_eval_at_column: 961652788
+query_eval_at_column: 898108790
+query_eval_at_column: 1602068782
+query_eval_at_column: 13255651
+query_eval_at_column: 241177909
+query_eval_at_column: 495184223
+query_eval_at_column: 1727310039
+query_eval_at_column: 1011165241
+query_eval_at_column: 1242740849
+query_eval_at_column: 132637340
+query_eval_at_column: 839306225
+query_eval_at_column: 1126147158
+query_eval_at_column: 1291767765
+query_eval_at_column: 631698816
+query_eval_at_column: 2110685448
+query_eval_at_column: 344815726
+query_eval_at_column: 1388582056
+query_eval_at_column: 401531915
+query_eval_at_column: 370825555
+query_eval_at_column: 1104180665
+query_eval_at_column: 1170254225
+query_eval_at_column: 194728918
+query_eval_at_column: 932524445
+query_eval_at_column: 114112275
+query_eval_at_column: 1844251742
+query_eval_at_column: 404367901
+query_eval_at_column: 1290723241
+query_eval_at_column: 1715051314
+query_eval_at_column: 1733105393
+query_eval_at_column: 609085806
+query_eval_at_column: 1397517957
+query_eval_at_column: 211754127
+query_eval_at_column: 866438163
+query_eval_at_column: 753912230
+query_eval_at_column: 680308943
+query_eval_at_column: 673366122
+query_eval_at_column: 961652788
+query_eval_at_column: 898108790
+query_eval_at_column: 1602068782
+query_eval_at_column: 1104180665
+query_eval_at_column: 1170254225
+query_eval_at_column: 194728918
+query_eval_at_column: 932524445
+query_eval_at_column: 114112275
+query_eval_at_column: 1844251742
+query_eval_at_column: 404367901
+query_eval_at_column: 1290723241
+query_eval_at_column: 489796766
+query_eval_at_column: 1
+query_eval_at_column: 5
+query_eval_at_column: 5
+query_eval_at_column: 0
+query_eval_at_column: 1
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 1
+query_eval_at_column: 32767
+query_eval_at_column: 32767
+query_eval_at_column: 32769
+query_eval_at_column: 1
+query_eval_at_column: 1
+query_eval_at_column: 1
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 1
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 511
+query_eval_at_column: 63
+query_eval_at_column: 3
+query_eval_at_column: 511
+query_eval_at_column: 15
+query_eval_at_column: 1
+query_eval_at_column: 0
+query_eval_at_column: 4
+query_eval_at_column: 0
+query_eval_at_column: 2072390664
+query_eval_at_column: 55867420
+query_eval_at_column: 845761516
+query_eval_at_column: 1490372818
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 1129609244
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 55867420
+query_eval_at_column: 2125521967
+query_eval_at_column: 2043306055
+query_eval_at_column: 1178044374
+query_eval_at_column: 1545611532
+query_eval_at_column: 0
+query_eval_at_column: 1470518549
+query_eval_at_column: 1959187064
+query_eval_at_column: 0
+query_eval_at_column: 901525660
+query_eval_at_column: 897767731
+query_eval_at_column: 1361863298
+query_eval_at_column: 1695320215
+query_eval_at_column: 1793685039
+query_eval_at_column: 1119806392
+query_eval_at_column: 1866507690
+query_eval_at_column: 1093727083
+query_eval_at_column: 1290565560
+query_eval_at_column: 1284136300
+query_eval_at_column: 1178704146
+query_eval_at_column: 1530792313
+query_eval_at_column: 392011632
+query_eval_at_column: 222750731
+query_eval_at_column: 1801032763
+query_eval_at_column: 38308948
+query_eval_at_column: 1008700714
+query_eval_at_column: 2054500536
+query_eval_at_column: 83147820
+query_eval_at_column: 1078494775
+query_eval_at_column: 1843779703
+query_eval_at_column: 1165275805
+query_eval_at_column: 1635669562
+query_eval_at_column: 133465449
+query_eval_at_column: 2040326693
+query_eval_at_column: 1673172780
+query_eval_at_column: 1359230621
+query_eval_at_column: 212881494
+query_eval_at_column: 1602759203
+query_eval_at_column: 463601615
+query_eval_at_column: 1792984512
+query_eval_at_column: 1756047238
+query_eval_at_column: 1093851975
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 995044857
+query_eval_at_column: 1347087304
+query_eval_at_column: 475441352
+query_eval_at_column: 8566266
+query_eval_at_column: 1990089714
+query_eval_at_column: 546690961
+query_eval_at_column: 950882704
+query_eval_at_column: 17132532
+query_eval_at_column: 837650924
+query_eval_at_column: 1893778265
+query_eval_at_column: 1426324056
+query_eval_at_column: 25698798
+query_eval_at_column: 1832695781
+query_eval_at_column: 1093381922
+query_eval_at_column: 1901765408
+query_eval_at_column: 34265064
+query_eval_at_column: 680256991
+query_eval_at_column: 292985579
+query_eval_at_column: 229723113
+query_eval_at_column: 42831330
+query_eval_at_column: 1675301848
+query_eval_at_column: 1640072883
+query_eval_at_column: 705164465
+query_eval_at_column: 51397596
+query_eval_at_column: 522863058
+query_eval_at_column: 839676540
+query_eval_at_column: 1180605817
+query_eval_at_column: 59963862
+query_eval_at_column: 1517907915
+query_eval_at_column: 39280197
+query_eval_at_column: 1656047169
+query_eval_at_column: 68530128
+query_eval_at_column: 365469125
+query_eval_at_column: 1386367501
+query_eval_at_column: 2131488521
+query_eval_at_column: 77096394
+query_eval_at_column: 1360513982
+query_eval_at_column: 585971158
+query_eval_at_column: 459446226
+query_eval_at_column: 85662660
+query_eval_at_column: 208075192
+query_eval_at_column: 1933058462
+query_eval_at_column: 934887578
+query_eval_at_column: 94228926
+query_eval_at_column: 1203120049
+query_eval_at_column: 1132662119
+query_eval_at_column: 1410328930
+query_eval_at_column: 102795192
+query_eval_at_column: 50681259
+query_eval_at_column: 332265776
+query_eval_at_column: 1885770282
+query_eval_at_column: 111361458
+query_eval_at_column: 365956789
+query_eval_at_column: 496824244
+query_eval_at_column: 421252763
+query_eval_at_column: 2037626558
+query_eval_at_column: 35074602
+query_eval_at_column: 461275948
+query_eval_at_column: 910471859
+query_eval_at_column: 2015464030
+query_eval_at_column: 419730363
+query_eval_at_column: 1202534245
+query_eval_at_column: 211210132
+query_eval_at_column: 1455881935
+query_eval_at_column: 550900282
+query_eval_at_column: 1120718617
+query_eval_at_column: 435043952
+query_eval_at_column: 70834369
+query_eval_at_column: 97660616
+query_eval_at_column: 1359964963
+query_eval_at_column: 1714782790
+query_eval_at_column: 924801180
+query_eval_at_column: 1366251346
+query_eval_at_column: 505271859
+query_eval_at_column: 1844424234
+query_eval_at_column: 1410340186
+query_eval_at_column: 1284136300
+query_eval_at_column: 1178704146
+query_eval_at_column: 1530792313
+query_eval_at_column: 392011632
+query_eval_at_column: 1165275805
+query_eval_at_column: 1635669562
+query_eval_at_column: 133465449
+query_eval_at_column: 2040326693
+query_eval_at_column: 463601615
+query_eval_at_column: 1792984512
+query_eval_at_column: 1756047238
+query_eval_at_column: 1093851975
+query_eval_at_column: 365956789
+query_eval_at_column: 496824244
+query_eval_at_column: 421252763
+query_eval_at_column: 2037626558
+query_eval_at_column: 1366251346
+query_eval_at_column: 505271859
+query_eval_at_column: 1844424234
+query_eval_at_column: 1410340186
+query_eval_at_column: 1284136300
+query_eval_at_column: 1178704146
+query_eval_at_column: 1530792313
+query_eval_at_column: 392011632
+query_eval_at_column: 1641440453
+query_eval_at_column: 1
+query_eval_at_column: 5
+query_eval_at_column: 5
+query_eval_at_column: 0
+query_eval_at_column: 1
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 1
+query_eval_at_column: 32767
+query_eval_at_column: 32767
+query_eval_at_column: 32769
+query_eval_at_column: 1
+query_eval_at_column: 1
+query_eval_at_column: 1
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 1
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 511
+query_eval_at_column: 63
+query_eval_at_column: 3
+query_eval_at_column: 511
+query_eval_at_column: 15
+query_eval_at_column: 1
+query_eval_at_column: 0
+query_eval_at_column: 4
+query_eval_at_column: 0
+query_eval_at_column: 2011373066
+query_eval_at_column: 1672710822
+query_eval_at_column: 1437355750
+query_eval_at_column: 2102008894
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 598968999
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 1672710822
+query_eval_at_column: 195581701
+query_eval_at_column: 1431958864
+query_eval_at_column: 1257449153
+query_eval_at_column: 1985773646
+query_eval_at_column: 0
+query_eval_at_column: 1849663065
+query_eval_at_column: 123310871
+query_eval_at_column: 0
+query_eval_at_column: 1085605379
+query_eval_at_column: 897767731
+query_eval_at_column: 1361863298
+query_eval_at_column: 1695320215
+query_eval_at_column: 1793685039
+query_eval_at_column: 1119806392
+query_eval_at_column: 1866507690
+query_eval_at_column: 1093727083
+query_eval_at_column: 1290565560
+query_eval_at_column: 1505706886
+query_eval_at_column: 1212477813
+query_eval_at_column: 555012135
+query_eval_at_column: 1497737460
+query_eval_at_column: 222750731
+query_eval_at_column: 1801032763
+query_eval_at_column: 38308948
+query_eval_at_column: 1008700714
+query_eval_at_column: 2054500536
+query_eval_at_column: 83147820
+query_eval_at_column: 1078494775
+query_eval_at_column: 1843779703
+query_eval_at_column: 1163198001
+query_eval_at_column: 1295137741
+query_eval_at_column: 1645859603
+query_eval_at_column: 2076176469
+query_eval_at_column: 1311167028
+query_eval_at_column: 824927230
+query_eval_at_column: 1287351159
+query_eval_at_column: 446359800
+query_eval_at_column: 1936701356
+query_eval_at_column: 339500370
+query_eval_at_column: 69176731
+query_eval_at_column: 268104429
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 995044857
+query_eval_at_column: 1347087304
+query_eval_at_column: 475441352
+query_eval_at_column: 8566266
+query_eval_at_column: 1990089714
+query_eval_at_column: 546690961
+query_eval_at_column: 950882704
+query_eval_at_column: 17132532
+query_eval_at_column: 837650924
+query_eval_at_column: 1893778265
+query_eval_at_column: 1426324056
+query_eval_at_column: 25698798
+query_eval_at_column: 1832695781
+query_eval_at_column: 1093381922
+query_eval_at_column: 1901765408
+query_eval_at_column: 34265064
+query_eval_at_column: 680256991
+query_eval_at_column: 292985579
+query_eval_at_column: 229723113
+query_eval_at_column: 42831330
+query_eval_at_column: 1675301848
+query_eval_at_column: 1640072883
+query_eval_at_column: 705164465
+query_eval_at_column: 51397596
+query_eval_at_column: 522863058
+query_eval_at_column: 839676540
+query_eval_at_column: 1180605817
+query_eval_at_column: 59963862
+query_eval_at_column: 1517907915
+query_eval_at_column: 39280197
+query_eval_at_column: 1656047169
+query_eval_at_column: 68530128
+query_eval_at_column: 365469125
+query_eval_at_column: 1386367501
+query_eval_at_column: 2131488521
+query_eval_at_column: 77096394
+query_eval_at_column: 1360513982
+query_eval_at_column: 585971158
+query_eval_at_column: 459446226
+query_eval_at_column: 85662660
+query_eval_at_column: 208075192
+query_eval_at_column: 1933058462
+query_eval_at_column: 934887578
+query_eval_at_column: 94228926
+query_eval_at_column: 1203120049
+query_eval_at_column: 1132662119
+query_eval_at_column: 1410328930
+query_eval_at_column: 102795192
+query_eval_at_column: 50681259
+query_eval_at_column: 332265776
+query_eval_at_column: 1885770282
+query_eval_at_column: 111361458
+query_eval_at_column: 1856515788
+query_eval_at_column: 1375081740
+query_eval_at_column: 1896413651
+query_eval_at_column: 1361270399
+query_eval_at_column: 1027259983
+query_eval_at_column: 1081247679
+query_eval_at_column: 284550411
+query_eval_at_column: 1286687486
+query_eval_at_column: 876573231
+query_eval_at_column: 1299471911
+query_eval_at_column: 1188884836
+query_eval_at_column: 2093047410
+query_eval_at_column: 1793580176
+query_eval_at_column: 2039526885
+query_eval_at_column: 1331444820
+query_eval_at_column: 1359267384
+query_eval_at_column: 1420056791
+query_eval_at_column: 2137434215
+query_eval_at_column: 1285883881
+query_eval_at_column: 1733340011
+query_eval_at_column: 811691674
+query_eval_at_column: 517604638
+query_eval_at_column: 101111490
+query_eval_at_column: 1068513636
+query_eval_at_column: 1505706886
+query_eval_at_column: 1212477813
+query_eval_at_column: 555012135
+query_eval_at_column: 1497737460
+query_eval_at_column: 1163198001
+query_eval_at_column: 1295137741
+query_eval_at_column: 1645859603
+query_eval_at_column: 2076176469
+query_eval_at_column: 1936701356
+query_eval_at_column: 339500370
+query_eval_at_column: 69176731
+query_eval_at_column: 268104429
+query_eval_at_column: 1856515788
+query_eval_at_column: 1375081740
+query_eval_at_column: 1896413651
+query_eval_at_column: 1361270399
+query_eval_at_column: 811691674
+query_eval_at_column: 517604638
+query_eval_at_column: 101111490
+query_eval_at_column: 1068513636
+query_eval_at_column: 1505706886
+query_eval_at_column: 1212477813
+query_eval_at_column: 555012135
+query_eval_at_column: 1497737460
+query_eval_at_column: 283499576
+query_eval_at_column: 1
+query_eval_at_column: 5
+query_eval_at_column: 5
+query_eval_at_column: 0
+query_eval_at_column: 1
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 1
+query_eval_at_column: 32767
+query_eval_at_column: 32767
+query_eval_at_column: 32769
+query_eval_at_column: 1
+query_eval_at_column: 1
+query_eval_at_column: 1
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 1
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 511
+query_eval_at_column: 63
+query_eval_at_column: 3
+query_eval_at_column: 511
+query_eval_at_column: 15
+query_eval_at_column: 1
+query_eval_at_column: 0
+query_eval_at_column: 4
+query_eval_at_column: 0
+query_eval_at_column: 1538010841
+query_eval_at_column: 600224473
+query_eval_at_column: 1076244828
+query_eval_at_column: 1386334490
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 1673966297
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 600224473
+query_eval_at_column: 1819930150
+query_eval_at_column: 22775299
+query_eval_at_column: 986878987
+query_eval_at_column: 439578190
+query_eval_at_column: 0
+query_eval_at_column: 1977589031
+query_eval_at_column: 1133998304
+query_eval_at_column: 0
+query_eval_at_column: 1788848154
+query_eval_at_column: 897767731
+query_eval_at_column: 1361863298
+query_eval_at_column: 1695320215
+query_eval_at_column: 1793685039
+query_eval_at_column: 1119806392
+query_eval_at_column: 1866507690
+query_eval_at_column: 1093727083
+query_eval_at_column: 1290565560
+query_eval_at_column: 1700211150
+query_eval_at_column: 900309048
+query_eval_at_column: 1214501354
+query_eval_at_column: 2116619914
+query_eval_at_column: 222750731
+query_eval_at_column: 1801032763
+query_eval_at_column: 38308948
+query_eval_at_column: 1008700714
+query_eval_at_column: 2054500536
+query_eval_at_column: 83147820
+query_eval_at_column: 1078494775
+query_eval_at_column: 1843779703
+query_eval_at_column: 1496460673
+query_eval_at_column: 1378310931
+query_eval_at_column: 811695925
+query_eval_at_column: 1069527612
+query_eval_at_column: 576008708
+query_eval_at_column: 1152642358
+query_eval_at_column: 911044338
+query_eval_at_column: 295220805
+query_eval_at_column: 335767972
+query_eval_at_column: 2115591482
+query_eval_at_column: 1656176189
+query_eval_at_column: 1616811176
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 995044857
+query_eval_at_column: 1347087304
+query_eval_at_column: 475441352
+query_eval_at_column: 8566266
+query_eval_at_column: 1990089714
+query_eval_at_column: 546690961
+query_eval_at_column: 950882704
+query_eval_at_column: 17132532
+query_eval_at_column: 837650924
+query_eval_at_column: 1893778265
+query_eval_at_column: 1426324056
+query_eval_at_column: 25698798
+query_eval_at_column: 1832695781
+query_eval_at_column: 1093381922
+query_eval_at_column: 1901765408
+query_eval_at_column: 34265064
+query_eval_at_column: 680256991
+query_eval_at_column: 292985579
+query_eval_at_column: 229723113
+query_eval_at_column: 42831330
+query_eval_at_column: 1675301848
+query_eval_at_column: 1640072883
+query_eval_at_column: 705164465
+query_eval_at_column: 51397596
+query_eval_at_column: 522863058
+query_eval_at_column: 839676540
+query_eval_at_column: 1180605817
+query_eval_at_column: 59963862
+query_eval_at_column: 1517907915
+query_eval_at_column: 39280197
+query_eval_at_column: 1656047169
+query_eval_at_column: 68530128
+query_eval_at_column: 365469125
+query_eval_at_column: 1386367501
+query_eval_at_column: 2131488521
+query_eval_at_column: 77096394
+query_eval_at_column: 1360513982
+query_eval_at_column: 585971158
+query_eval_at_column: 459446226
+query_eval_at_column: 85662660
+query_eval_at_column: 208075192
+query_eval_at_column: 1933058462
+query_eval_at_column: 934887578
+query_eval_at_column: 94228926
+query_eval_at_column: 1203120049
+query_eval_at_column: 1132662119
+query_eval_at_column: 1410328930
+query_eval_at_column: 102795192
+query_eval_at_column: 50681259
+query_eval_at_column: 332265776
+query_eval_at_column: 1885770282
+query_eval_at_column: 111361458
+query_eval_at_column: 982358080
+query_eval_at_column: 1362130455
+query_eval_at_column: 612040366
+query_eval_at_column: 1150104975
+query_eval_at_column: 484008605
+query_eval_at_column: 505457150
+query_eval_at_column: 1533852237
+query_eval_at_column: 1012652158
+query_eval_at_column: 1643252222
+query_eval_at_column: 809811239
+query_eval_at_column: 1144745588
+query_eval_at_column: 1222038580
+query_eval_at_column: 1439584330
+query_eval_at_column: 1884017052
+query_eval_at_column: 1240145502
+query_eval_at_column: 456323575
+query_eval_at_column: 1628229639
+query_eval_at_column: 1301029006
+query_eval_at_column: 2095758884
+query_eval_at_column: 1492208873
+query_eval_at_column: 1462873959
+query_eval_at_column: 1350697226
+query_eval_at_column: 1136104406
+query_eval_at_column: 1149658562
+query_eval_at_column: 1700211150
+query_eval_at_column: 900309048
+query_eval_at_column: 1214501354
+query_eval_at_column: 2116619914
+query_eval_at_column: 1496460673
+query_eval_at_column: 1378310931
+query_eval_at_column: 811695925
+query_eval_at_column: 1069527612
+query_eval_at_column: 335767972
+query_eval_at_column: 2115591482
+query_eval_at_column: 1656176189
+query_eval_at_column: 1616811176
+query_eval_at_column: 982358080
+query_eval_at_column: 1362130455
+query_eval_at_column: 612040366
+query_eval_at_column: 1150104975
+query_eval_at_column: 1462873959
+query_eval_at_column: 1350697226
+query_eval_at_column: 1136104406
+query_eval_at_column: 1149658562
+query_eval_at_column: 1700211150
+query_eval_at_column: 900309048
+query_eval_at_column: 1214501354
+query_eval_at_column: 2116619914
+query_eval_at_column: 217123239
+query_eval_at_column: 1
+query_eval_at_column: 5
+query_eval_at_column: 5
+query_eval_at_column: 0
+query_eval_at_column: 1
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 1
+query_eval_at_column: 32767
+query_eval_at_column: 32767
+query_eval_at_column: 32769
+query_eval_at_column: 1
+query_eval_at_column: 1
+query_eval_at_column: 1
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 1
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 511
+query_eval_at_column: 63
+query_eval_at_column: 3
+query_eval_at_column: 511
+query_eval_at_column: 15
+query_eval_at_column: 1
+query_eval_at_column: 0
+query_eval_at_column: 4
+query_eval_at_column: 0
+query_eval_at_column: 675118460
+query_eval_at_column: 58834968
+query_eval_at_column: 416827303
+query_eval_at_column: 538459325
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 1132576792
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 58834968
+query_eval_at_column: 1045576809
+query_eval_at_column: 417323718
+query_eval_at_column: 1428309132
+query_eval_at_column: 1614857645
+query_eval_at_column: 0
+query_eval_at_column: 142492458
+query_eval_at_column: 868492956
+query_eval_at_column: 0
+query_eval_at_column: 468353435
+query_eval_at_column: 897767731
+query_eval_at_column: 1361863298
+query_eval_at_column: 1695320215
+query_eval_at_column: 1793685039
+query_eval_at_column: 1119806392
+query_eval_at_column: 1866507690
+query_eval_at_column: 1093727083
+query_eval_at_column: 1290565560
+query_eval_at_column: 1973815054
+query_eval_at_column: 1880877931
+query_eval_at_column: 875276679
+query_eval_at_column: 263241404
+query_eval_at_column: 222750731
+query_eval_at_column: 1801032763
+query_eval_at_column: 38308948
+query_eval_at_column: 1008700714
+query_eval_at_column: 2054500536
+query_eval_at_column: 83147820
+query_eval_at_column: 1078494775
+query_eval_at_column: 1843779703
+query_eval_at_column: 331119525
+query_eval_at_column: 594139717
+query_eval_at_column: 1129815522
+query_eval_at_column: 478446376
+query_eval_at_column: 225380733
+query_eval_at_column: 49833236
+query_eval_at_column: 1693387232
+query_eval_at_column: 1932087635
+query_eval_at_column: 1347348223
+query_eval_at_column: 151974141
+query_eval_at_column: 253366208
+query_eval_at_column: 1417633266
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 995044857
+query_eval_at_column: 1347087304
+query_eval_at_column: 475441352
+query_eval_at_column: 8566266
+query_eval_at_column: 1990089714
+query_eval_at_column: 546690961
+query_eval_at_column: 950882704
+query_eval_at_column: 17132532
+query_eval_at_column: 837650924
+query_eval_at_column: 1893778265
+query_eval_at_column: 1426324056
+query_eval_at_column: 25698798
+query_eval_at_column: 1832695781
+query_eval_at_column: 1093381922
+query_eval_at_column: 1901765408
+query_eval_at_column: 34265064
+query_eval_at_column: 680256991
+query_eval_at_column: 292985579
+query_eval_at_column: 229723113
+query_eval_at_column: 42831330
+query_eval_at_column: 1675301848
+query_eval_at_column: 1640072883
+query_eval_at_column: 705164465
+query_eval_at_column: 51397596
+query_eval_at_column: 522863058
+query_eval_at_column: 839676540
+query_eval_at_column: 1180605817
+query_eval_at_column: 59963862
+query_eval_at_column: 1517907915
+query_eval_at_column: 39280197
+query_eval_at_column: 1656047169
+query_eval_at_column: 68530128
+query_eval_at_column: 365469125
+query_eval_at_column: 1386367501
+query_eval_at_column: 2131488521
+query_eval_at_column: 77096394
+query_eval_at_column: 1360513982
+query_eval_at_column: 585971158
+query_eval_at_column: 459446226
+query_eval_at_column: 85662660
+query_eval_at_column: 208075192
+query_eval_at_column: 1933058462
+query_eval_at_column: 934887578
+query_eval_at_column: 94228926
+query_eval_at_column: 1203120049
+query_eval_at_column: 1132662119
+query_eval_at_column: 1410328930
+query_eval_at_column: 102795192
+query_eval_at_column: 50681259
+query_eval_at_column: 332265776
+query_eval_at_column: 1885770282
+query_eval_at_column: 111361458
+query_eval_at_column: 2095419376
+query_eval_at_column: 1135032832
+query_eval_at_column: 2093835490
+query_eval_at_column: 823740860
+query_eval_at_column: 1760835121
+query_eval_at_column: 1069701104
+query_eval_at_column: 727916812
+query_eval_at_column: 410416564
+query_eval_at_column: 1895124847
+query_eval_at_column: 250656911
+query_eval_at_column: 1356793595
+query_eval_at_column: 1894737031
+query_eval_at_column: 139113940
+query_eval_at_column: 1329466596
+query_eval_at_column: 969549369
+query_eval_at_column: 1741704451
+query_eval_at_column: 465782156
+query_eval_at_column: 1828621325
+query_eval_at_column: 903520675
+query_eval_at_column: 280239001
+query_eval_at_column: 62637400
+query_eval_at_column: 1468872413
+query_eval_at_column: 200684645
+query_eval_at_column: 1441227254
+query_eval_at_column: 1973815054
+query_eval_at_column: 1880877931
+query_eval_at_column: 875276679
+query_eval_at_column: 263241404
+query_eval_at_column: 331119525
+query_eval_at_column: 594139717
+query_eval_at_column: 1129815522
+query_eval_at_column: 478446376
+query_eval_at_column: 1347348223
+query_eval_at_column: 151974141
+query_eval_at_column: 253366208
+query_eval_at_column: 1417633266
+query_eval_at_column: 2095419376
+query_eval_at_column: 1135032832
+query_eval_at_column: 2093835490
+query_eval_at_column: 823740860
+query_eval_at_column: 62637400
+query_eval_at_column: 1468872413
+query_eval_at_column: 200684645
+query_eval_at_column: 1441227254
+query_eval_at_column: 1973815054
+query_eval_at_column: 1880877931
+query_eval_at_column: 875276679
+query_eval_at_column: 263241404
+query_eval_at_column: 489796766
+query_eval_at_column: 1
+query_eval_at_column: 5
+query_eval_at_column: 5
+query_eval_at_column: 0
+query_eval_at_column: 1
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 1
+query_eval_at_column: 32767
+query_eval_at_column: 32767
+query_eval_at_column: 32769
+query_eval_at_column: 1
+query_eval_at_column: 1
+query_eval_at_column: 1
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 1
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 511
+query_eval_at_column: 63
+query_eval_at_column: 3
+query_eval_at_column: 511
+query_eval_at_column: 15
+query_eval_at_column: 1
+query_eval_at_column: 0
+query_eval_at_column: 4
+query_eval_at_column: 0
+query_eval_at_column: 2072390664
+query_eval_at_column: 493042739
+query_eval_at_column: 1123501154
+query_eval_at_column: 1492818141
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 1566784563
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 493042739
+query_eval_at_column: 2125521967
+query_eval_at_column: 2043306055
+query_eval_at_column: 1178044374
+query_eval_at_column: 1545611532
+query_eval_at_column: 0
+query_eval_at_column: 1470518549
+query_eval_at_column: 1959187064
+query_eval_at_column: 0
+query_eval_at_column: 398105343
+query_eval_at_column: 897767731
+query_eval_at_column: 1361863298
+query_eval_at_column: 1695320215
+query_eval_at_column: 1793685039
+query_eval_at_column: 1119806392
+query_eval_at_column: 1866507690
+query_eval_at_column: 1093727083
+query_eval_at_column: 1290565560
+query_eval_at_column: 986541531
+query_eval_at_column: 1218268755
+query_eval_at_column: 2120809447
+query_eval_at_column: 1856814180
+query_eval_at_column: 222750731
+query_eval_at_column: 1801032763
+query_eval_at_column: 38308948
+query_eval_at_column: 1008700714
+query_eval_at_column: 2054500536
+query_eval_at_column: 83147820
+query_eval_at_column: 1078494775
+query_eval_at_column: 1843779703
+query_eval_at_column: 994023782
+query_eval_at_column: 1375038790
+query_eval_at_column: 1456418989
+query_eval_at_column: 1597279151
+query_eval_at_column: 1631546950
+query_eval_at_column: 354019287
+query_eval_at_column: 1240442723
+query_eval_at_column: 81848602
+query_eval_at_column: 559408267
+query_eval_at_column: 744627500
+query_eval_at_column: 2126928734
+query_eval_at_column: 1969507959
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 995044857
+query_eval_at_column: 1347087304
+query_eval_at_column: 475441352
+query_eval_at_column: 8566266
+query_eval_at_column: 1990089714
+query_eval_at_column: 546690961
+query_eval_at_column: 950882704
+query_eval_at_column: 17132532
+query_eval_at_column: 837650924
+query_eval_at_column: 1893778265
+query_eval_at_column: 1426324056
+query_eval_at_column: 25698798
+query_eval_at_column: 1832695781
+query_eval_at_column: 1093381922
+query_eval_at_column: 1901765408
+query_eval_at_column: 34265064
+query_eval_at_column: 680256991
+query_eval_at_column: 292985579
+query_eval_at_column: 229723113
+query_eval_at_column: 42831330
+query_eval_at_column: 1675301848
+query_eval_at_column: 1640072883
+query_eval_at_column: 705164465
+query_eval_at_column: 51397596
+query_eval_at_column: 522863058
+query_eval_at_column: 839676540
+query_eval_at_column: 1180605817
+query_eval_at_column: 59963862
+query_eval_at_column: 1517907915
+query_eval_at_column: 39280197
+query_eval_at_column: 1656047169
+query_eval_at_column: 68530128
+query_eval_at_column: 365469125
+query_eval_at_column: 1386367501
+query_eval_at_column: 2131488521
+query_eval_at_column: 77096394
+query_eval_at_column: 1360513982
+query_eval_at_column: 585971158
+query_eval_at_column: 459446226
+query_eval_at_column: 85662660
+query_eval_at_column: 208075192
+query_eval_at_column: 1933058462
+query_eval_at_column: 934887578
+query_eval_at_column: 94228926
+query_eval_at_column: 1203120049
+query_eval_at_column: 1132662119
+query_eval_at_column: 1410328930
+query_eval_at_column: 102795192
+query_eval_at_column: 50681259
+query_eval_at_column: 332265776
+query_eval_at_column: 1885770282
+query_eval_at_column: 111361458
+query_eval_at_column: 920821060
+query_eval_at_column: 1101000288
+query_eval_at_column: 28400261
+query_eval_at_column: 1649159090
+query_eval_at_column: 1921834542
+query_eval_at_column: 1864862172
+query_eval_at_column: 90402235
+query_eval_at_column: 820402689
+query_eval_at_column: 159006656
+query_eval_at_column: 458636822
+query_eval_at_column: 1538624155
+query_eval_at_column: 260820594
+query_eval_at_column: 290176575
+query_eval_at_column: 376821194
+query_eval_at_column: 1762457975
+query_eval_at_column: 1023256675
+query_eval_at_column: 1984420556
+query_eval_at_column: 616067540
+query_eval_at_column: 894713166
+query_eval_at_column: 1877223486
+query_eval_at_column: 1769164483
+query_eval_at_column: 1061074968
+query_eval_at_column: 428449448
+query_eval_at_column: 1428521925
+query_eval_at_column: 986541531
+query_eval_at_column: 1218268755
+query_eval_at_column: 2120809447
+query_eval_at_column: 1856814180
+query_eval_at_column: 994023782
+query_eval_at_column: 1375038790
+query_eval_at_column: 1456418989
+query_eval_at_column: 1597279151
+query_eval_at_column: 559408267
+query_eval_at_column: 744627500
+query_eval_at_column: 2126928734
+query_eval_at_column: 1969507959
+query_eval_at_column: 920821060
+query_eval_at_column: 1101000288
+query_eval_at_column: 28400261
+query_eval_at_column: 1649159090
+query_eval_at_column: 1769164483
+query_eval_at_column: 1061074968
+query_eval_at_column: 428449448
+query_eval_at_column: 1428521925
+query_eval_at_column: 986541531
+query_eval_at_column: 1218268755
+query_eval_at_column: 2120809447
+query_eval_at_column: 1856814180
+query_eval_at_column: 376126423
+query_eval_at_column: 1
+query_eval_at_column: 5
+query_eval_at_column: 5
+query_eval_at_column: 0
+query_eval_at_column: 1
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 1
+query_eval_at_column: 32767
+query_eval_at_column: 32767
+query_eval_at_column: 32769
+query_eval_at_column: 1
+query_eval_at_column: 1
+query_eval_at_column: 1
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 1
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 511
+query_eval_at_column: 63
+query_eval_at_column: 3
+query_eval_at_column: 511
+query_eval_at_column: 15
+query_eval_at_column: 1
+query_eval_at_column: 0
+query_eval_at_column: 4
+query_eval_at_column: 0
+query_eval_at_column: 594676205
+query_eval_at_column: 506835520
+query_eval_at_column: 638592549
+query_eval_at_column: 333274547
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 1580577344
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 506835520
+query_eval_at_column: 645022168
+query_eval_at_column: 624786615
+query_eval_at_column: 1074557570
+query_eval_at_column: 498072705
+query_eval_at_column: 0
+query_eval_at_column: 1092748910
+query_eval_at_column: 1504505692
+query_eval_at_column: 0
+query_eval_at_column: 1932272956
+query_eval_at_column: 897767731
+query_eval_at_column: 1361863298
+query_eval_at_column: 1695320215
+query_eval_at_column: 1793685039
+query_eval_at_column: 1119806392
+query_eval_at_column: 1866507690
+query_eval_at_column: 1093727083
+query_eval_at_column: 1290565560
+query_eval_at_column: 1318155136
+query_eval_at_column: 440909099
+query_eval_at_column: 1327373661
+query_eval_at_column: 1707988968
+query_eval_at_column: 222750731
+query_eval_at_column: 1801032763
+query_eval_at_column: 38308948
+query_eval_at_column: 1008700714
+query_eval_at_column: 2054500536
+query_eval_at_column: 83147820
+query_eval_at_column: 1078494775
+query_eval_at_column: 1843779703
+query_eval_at_column: 640410896
+query_eval_at_column: 1991194785
+query_eval_at_column: 1674235051
+query_eval_at_column: 1629006083
+query_eval_at_column: 1769749696
+query_eval_at_column: 969340274
+query_eval_at_column: 352447948
+query_eval_at_column: 2123483070
+query_eval_at_column: 2074133838
+query_eval_at_column: 296354692
+query_eval_at_column: 1559980645
+query_eval_at_column: 517187367
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 0
+query_eval_at_column: 995044857
+query_eval_at_column: 1347087304
+query_eval_at_column: 475441352
+query_eval_at_column: 8566266
+query_eval_at_column: 1990089714
+query_eval_at_column: 546690961
+query_eval_at_column: 950882704
+query_eval_at_column: 17132532
+query_eval_at_column: 837650924
+query_eval_at_column: 1893778265
+query_eval_at_column: 1426324056
+query_eval_at_column: 25698798
+query_eval_at_column: 1832695781
+query_eval_at_column: 1093381922
+query_eval_at_column: 1901765408
+query_eval_at_column: 34265064
+query_eval_at_column: 680256991
+query_eval_at_column: 292985579
+query_eval_at_column: 229723113
+query_eval_at_column: 42831330
+query_eval_at_column: 1675301848
+query_eval_at_column: 1640072883
+query_eval_at_column: 705164465
+query_eval_at_column: 51397596
+query_eval_at_column: 522863058
+query_eval_at_column: 839676540
+query_eval_at_column: 1180605817
+query_eval_at_column: 59963862
+query_eval_at_column: 1517907915
+query_eval_at_column: 39280197
+query_eval_at_column: 1656047169
+query_eval_at_column: 68530128
+query_eval_at_column: 365469125
+query_eval_at_column: 1386367501
+query_eval_at_column: 2131488521
+query_eval_at_column: 77096394
+query_eval_at_column: 1360513982
+query_eval_at_column: 585971158
+query_eval_at_column: 459446226
+query_eval_at_column: 85662660
+query_eval_at_column: 208075192
+query_eval_at_column: 1933058462
+query_eval_at_column: 934887578
+query_eval_at_column: 94228926
+query_eval_at_column: 1203120049
+query_eval_at_column: 1132662119
+query_eval_at_column: 1410328930
+query_eval_at_column: 102795192
+query_eval_at_column: 50681259
+query_eval_at_column: 332265776
+query_eval_at_column: 1885770282
+query_eval_at_column: 111361458
+query_eval_at_column: 1061743868
+query_eval_at_column: 386315407
+query_eval_at_column: 2030469955
+query_eval_at_column: 515401127
+query_eval_at_column: 932399138
+query_eval_at_column: 1256492850
+query_eval_at_column: 411288958
+query_eval_at_column: 1649966533
+query_eval_at_column: 1076311506
+query_eval_at_column: 576448480
+query_eval_at_column: 468075850
+query_eval_at_column: 889778338
+query_eval_at_column: 1595852676
+query_eval_at_column: 1499514588
+query_eval_at_column: 588066607
+query_eval_at_column: 299147495
+query_eval_at_column: 17805530
+query_eval_at_column: 618823248
+query_eval_at_column: 460068758
+query_eval_at_column: 1516353717
+query_eval_at_column: 1703284934
+query_eval_at_column: 135045264
+query_eval_at_column: 1496451970
+query_eval_at_column: 1537503730
+query_eval_at_column: 1318155136
+query_eval_at_column: 440909099
+query_eval_at_column: 1327373661
+query_eval_at_column: 1707988968
+query_eval_at_column: 640410896
+query_eval_at_column: 1991194785
+query_eval_at_column: 1674235051
+query_eval_at_column: 1629006083
+query_eval_at_column: 2074133838
+query_eval_at_column: 296354692
+query_eval_at_column: 1559980645
+query_eval_at_column: 517187367
+query_eval_at_column: 1061743868
+query_eval_at_column: 386315407
+query_eval_at_column: 2030469955
+query_eval_at_column: 515401127
+query_eval_at_column: 1703284934
+query_eval_at_column: 135045264
+query_eval_at_column: 1496451970
+query_eval_at_column: 1537503730
+query_eval_at_column: 1318155136
+query_eval_at_column: 440909099
+query_eval_at_column: 1327373661
+query_eval_at_column: 1707988968
+before decommit_first_layer
+decommitment_position: 119604
+query_evals: (0 + 0i) + (0 + 0i)u
+decommitment_position: 119605
+witness_eval: (0 + 0i) + (0 + 0i)u
+decommitment_position: 228128
+query_evals: (0 + 0i) + (0 + 0i)u
+decommitment_position: 228129
+witness_eval: (0 + 0i) + (0 + 0i)u
+decommitment_position: 1605974
+query_evals: (0 + 0i) + (0 + 0i)u
+decommitment_position: 1605975
+witness_eval: (0 + 0i) + (0 + 0i)u
+decommitment_position: 2352386
+query_evals: (0 + 0i) + (0 + 0i)u
+decommitment_position: 2352387
+witness_eval: (0 + 0i) + (0 + 0i)u
+decommitment_position: 2396018
+query_evals: (0 + 0i) + (0 + 0i)u
+decommitment_position: 2396019
+witness_eval: (0 + 0i) + (0 + 0i)u
+decommitment_position: 2868880
+query_evals: (0 + 0i) + (0 + 0i)u
+decommitment_position: 2868881
+witness_eval: (0 + 0i) + (0 + 0i)u
+decommitment_position: 3076736
+witness_eval: (0 + 0i) + (0 + 0i)u
+decommitment_position: 3076737
+query_evals: (0 + 0i) + (0 + 0i)u
+decommitment_position: 3467118
+witness_eval: (0 + 0i) + (0 + 0i)u
+decommitment_position: 3467119
+query_evals: (0 + 0i) + (0 + 0i)u
+decommitment_position: 3829446
+query_evals: (0 + 0i) + (0 + 0i)u
+decommitment_position: 3829447
+witness_eval: (0 + 0i) + (0 + 0i)u
+decommitment_position: 3920958
+query_evals: (0 + 0i) + (0 + 0i)u
+decommitment_position: 3920959
+witness_eval: (0 + 0i) + (0 + 0i)u
+decommitment_position: 4973930
+witness_eval: (0 + 0i) + (0 + 0i)u
+decommitment_position: 4973931
+query_evals: (0 + 0i) + (0 + 0i)u
+decommitment_position: 5540104
+query_evals: (0 + 0i) + (0 + 0i)u
+decommitment_position: 5540105
+witness_eval: (0 + 0i) + (0 + 0i)u
+decommitment_position: 7440332
+query_evals: (0 + 0i) + (0 + 0i)u
+decommitment_position: 7440333
+witness_eval: (0 + 0i) + (0 + 0i)u
+decommitment_position: 7590150
+query_evals: (0 + 0i) + (0 + 0i)u
+decommitment_position: 7590151
+witness_eval: (0 + 0i) + (0 + 0i)u
+decommitment_position: 8262586
+witness_eval: (0 + 0i) + (0 + 0i)u
+decommitment_position: 8262587
+query_evals: (0 + 0i) + (0 + 0i)u
+subset_domain_index_initials: [1467840, 159584, 3489932, 2118626, 2586770, 307690, 42938, 3896214, 3259182, 4068846, 2839529, 542869, 1700039, 3163623, 3073087]
+column_domain_log_size: 23
+(0 + 0i) + (0 + 0i)u
+(0 + 0i) + (0 + 0i)u
+(0 + 0i) + (0 + 0i)u
+(0 + 0i) + (0 + 0i)u
+(0 + 0i) + (0 + 0i)u
+(0 + 0i) + (0 + 0i)u
+(0 + 0i) + (0 + 0i)u
+(0 + 0i) + (0 + 0i)u
+(0 + 0i) + (0 + 0i)u
+(0 + 0i) + (0 + 0i)u
+(0 + 0i) + (0 + 0i)u
+(0 + 0i) + (0 + 0i)u
+(0 + 0i) + (0 + 0i)u
+(0 + 0i) + (0 + 0i)u
+(0 + 0i) + (0 + 0i)u
+(0 + 0i) + (0 + 0i)u
+(0 + 0i) + (0 + 0i)u
+(0 + 0i) + (0 + 0i)u
+(0 + 0i) + (0 + 0i)u
+(0 + 0i) + (0 + 0i)u
+(0 + 0i) + (0 + 0i)u
+(0 + 0i) + (0 + 0i)u
+(0 + 0i) + (0 + 0i)u
+(0 + 0i) + (0 + 0i)u
+(0 + 0i) + (0 + 0i)u
+(0 + 0i) + (0 + 0i)u
+(0 + 0i) + (0 + 0i)u
+(0 + 0i) + (0 + 0i)u
+(0 + 0i) + (0 + 0i)u
+(0 + 0i) + (0 + 0i)u
+f_at_p: (0 + 0i) + (0 + 0i)u
+f_at_neg_p: (0 + 0i) + (0 + 0i)u
+f_at_p: (0 + 0i) + (0 + 0i)u
+f_at_neg_p: (0 + 0i) + (0 + 0i)u
+f_at_p: (0 + 0i) + (0 + 0i)u
+f_at_neg_p: (0 + 0i) + (0 + 0i)u
+f_at_p: (0 + 0i) + (0 + 0i)u
+f_at_neg_p: (0 + 0i) + (0 + 0i)u
+f_at_p: (0 + 0i) + (0 + 0i)u
+f_at_neg_p: (0 + 0i) + (0 + 0i)u
+f_at_p: (0 + 0i) + (0 + 0i)u
+f_at_neg_p: (0 + 0i) + (0 + 0i)u
+f_at_p: (0 + 0i) + (0 + 0i)u
+f_at_neg_p: (0 + 0i) + (0 + 0i)u
+f_at_p: (0 + 0i) + (0 + 0i)u
+f_at_neg_p: (0 + 0i) + (0 + 0i)u
+f_at_p: (0 + 0i) + (0 + 0i)u
+f_at_neg_p: (0 + 0i) + (0 + 0i)u
+f_at_p: (0 + 0i) + (0 + 0i)u
+f_at_neg_p: (0 + 0i) + (0 + 0i)u
+f_at_p: (0 + 0i) + (0 + 0i)u
+f_at_neg_p: (0 + 0i) + (0 + 0i)u
+f_at_p: (0 + 0i) + (0 + 0i)u
+f_at_neg_p: (0 + 0i) + (0 + 0i)u
+f_at_p: (0 + 0i) + (0 + 0i)u
+f_at_neg_p: (0 + 0i) + (0 + 0i)u
+f_at_p: (0 + 0i) + (0 + 0i)u
+f_at_neg_p: (0 + 0i) + (0 + 0i)u
+f_at_p: (0 + 0i) + (0 + 0i)u
+f_at_neg_p: (0 + 0i) + (0 + 0i)u
+decommitment_position: 59802
+query_evals: (0 + 0i) + (0 + 0i)u
+decommitment_position: 59803
+witness_eval: (0 + 0i) + (0 + 0i)u
+decommitment_position: 114064
+query_evals: (0 + 0i) + (0 + 0i)u
+decommitment_position: 114065
+witness_eval: (0 + 0i) + (0 + 0i)u
+decommitment_position: 802986
+witness_eval: (0 + 0i) + (0 + 0i)u
+decommitment_position: 802987
+query_evals: (0 + 0i) + (0 + 0i)u
+decommitment_position: 1176192
+witness_eval: (0 + 0i) + (0 + 0i)u
+decommitment_position: 1176193
+query_evals: (0 + 0i) + (0 + 0i)u
+decommitment_position: 1198008
+witness_eval: (0 + 0i) + (0 + 0i)u
+decommitment_position: 1198009
+query_evals: (0 + 0i) + (0 + 0i)u
+decommitment_position: 1434440
+query_evals: (0 + 0i) + (0 + 0i)u
+decommitment_position: 1434441
+witness_eval: (0 + 0i) + (0 + 0i)u
+decommitment_position: 1538368
+query_evals: (0 + 0i) + (0 + 0i)u
+decommitment_position: 1538369
+witness_eval: (0 + 0i) + (0 + 0i)u
+decommitment_position: 1733558
+witness_eval: (0 + 0i) + (0 + 0i)u
+decommitment_position: 1733559
+query_evals: (0 + 0i) + (0 + 0i)u
+decommitment_position: 1914722
+witness_eval: (0 + 0i) + (0 + 0i)u
+decommitment_position: 1914723
+query_evals: (0 + 0i) + (0 + 0i)u
+decommitment_position: 1960478
+witness_eval: (0 + 0i) + (0 + 0i)u
+decommitment_position: 1960479
+query_evals: (0 + 0i) + (0 + 0i)u
+decommitment_position: 2486964
+witness_eval: (0 + 0i) + (0 + 0i)u
+decommitment_position: 2486965
+query_evals: (0 + 0i) + (0 + 0i)u
+decommitment_position: 2770052
+query_evals: (0 + 0i) + (0 + 0i)u
+decommitment_position: 2770053
+witness_eval: (0 + 0i) + (0 + 0i)u
+decommitment_position: 3720166
+query_evals: (0 + 0i) + (0 + 0i)u
+decommitment_position: 3720167
+witness_eval: (0 + 0i) + (0 + 0i)u
+decommitment_position: 3795074
+witness_eval: (0 + 0i) + (0 + 0i)u
+decommitment_position: 3795075
+query_evals: (0 + 0i) + (0 + 0i)u
+decommitment_position: 4131292
+witness_eval: (0 + 0i) + (0 + 0i)u
+decommitment_position: 4131293
+query_evals: (0 + 0i) + (0 + 0i)u
+subset_domain_index_initials: [1467840, 159584, 1392780, 21474, 489618, 307690, 42938, 1799062, 1162030, 1971694, 742377, 542869, 1700039, 1066471, 975935]
+column_domain_log_size: 22
+(0 + 0i) + (0 + 0i)u
+(0 + 0i) + (0 + 0i)u
+(0 + 0i) + (0 + 0i)u
+(0 + 0i) + (0 + 0i)u
+(0 + 0i) + (0 + 0i)u
+(0 + 0i) + (0 + 0i)u
+(0 + 0i) + (0 + 0i)u
+(0 + 0i) + (0 + 0i)u
+(0 + 0i) + (0 + 0i)u
+(0 + 0i) + (0 + 0i)u
+(0 + 0i) + (0 + 0i)u
+(0 + 0i) + (0 + 0i)u
+(0 + 0i) + (0 + 0i)u
+(0 + 0i) + (0 + 0i)u
+(0 + 0i) + (0 + 0i)u
+(0 + 0i) + (0 + 0i)u
+(0 + 0i) + (0 + 0i)u
+(0 + 0i) + (0 + 0i)u
+(0 + 0i) + (0 + 0i)u
+(0 + 0i) + (0 + 0i)u
+(0 + 0i) + (0 + 0i)u
+(0 + 0i) + (0 + 0i)u
+(0 + 0i) + (0 + 0i)u
+(0 + 0i) + (0 + 0i)u
+(0 + 0i) + (0 + 0i)u
+(0 + 0i) + (0 + 0i)u
+(0 + 0i) + (0 + 0i)u
+(0 + 0i) + (0 + 0i)u
+(0 + 0i) + (0 + 0i)u
+(0 + 0i) + (0 + 0i)u
+f_at_p: (0 + 0i) + (0 + 0i)u
+f_at_neg_p: (0 + 0i) + (0 + 0i)u
+f_at_p: (0 + 0i) + (0 + 0i)u
+f_at_neg_p: (0 + 0i) + (0 + 0i)u
+f_at_p: (0 + 0i) + (0 + 0i)u
+f_at_neg_p: (0 + 0i) + (0 + 0i)u
+f_at_p: (0 + 0i) + (0 + 0i)u
+f_at_neg_p: (0 + 0i) + (0 + 0i)u
+f_at_p: (0 + 0i) + (0 + 0i)u
+f_at_neg_p: (0 + 0i) + (0 + 0i)u
+f_at_p: (0 + 0i) + (0 + 0i)u
+f_at_neg_p: (0 + 0i) + (0 + 0i)u
+f_at_p: (0 + 0i) + (0 + 0i)u
+f_at_neg_p: (0 + 0i) + (0 + 0i)u
+f_at_p: (0 + 0i) + (0 + 0i)u
+f_at_neg_p: (0 + 0i) + (0 + 0i)u
+f_at_p: (0 + 0i) + (0 + 0i)u
+f_at_neg_p: (0 + 0i) + (0 + 0i)u
+f_at_p: (0 + 0i) + (0 + 0i)u
+f_at_neg_p: (0 + 0i) + (0 + 0i)u
+f_at_p: (0 + 0i) + (0 + 0i)u
+f_at_neg_p: (0 + 0i) + (0 + 0i)u
+f_at_p: (0 + 0i) + (0 + 0i)u
+f_at_neg_p: (0 + 0i) + (0 + 0i)u
+f_at_p: (0 + 0i) + (0 + 0i)u
+f_at_neg_p: (0 + 0i) + (0 + 0i)u
+f_at_p: (0 + 0i) + (0 + 0i)u
+f_at_neg_p: (0 + 0i) + (0 + 0i)u
+f_at_p: (0 + 0i) + (0 + 0i)u
+f_at_neg_p: (0 + 0i) + (0 + 0i)u
+decommitment_position: 29900
+witness_eval: (1172610432 + 1850530888i) + (1059325212 + 520940248i)u
+decommitment_position: 29901
+query_evals: (389489552 + 1540580691i) + (1224745412 + 2143215784i)u
+decommitment_position: 57032
+query_evals: (1621129737 + 2036217466i) + (1128208262 + 1665208349i)u
+decommitment_position: 57033
+witness_eval: (1398030947 + 1918640201i) + (1727124007 + 1620316552i)u
+decommitment_position: 401492
+witness_eval: (2074733203 + 543122776i) + (1774212299 + 1645622527i)u
+decommitment_position: 401493
+query_evals: (1898562797 + 1240115151i) + (910127012 + 68180813i)u
+decommitment_position: 588096
+query_evals: (649710905 + 209771102i) + (397607162 + 1090968893i)u
+decommitment_position: 588097
+witness_eval: (1012554912 + 2026682739i) + (1341716012 + 948218504i)u
+decommitment_position: 599004
+query_evals: (306199231 + 1994249493i) + (644099046 + 546984555i)u
+decommitment_position: 599005
+witness_eval: (1444445926 + 1209866754i) + (1062198184 + 301386176i)u
+decommitment_position: 717220
+query_evals: (1802847707 + 974369084i) + (1502344442 + 2068619993i)u
+decommitment_position: 717221
+witness_eval: (1013679039 + 77712504i) + (1394391774 + 209719193i)u
+decommitment_position: 769184
+query_evals: (392255974 + 393520538i) + (1848853635 + 908951287i)u
+decommitment_position: 769185
+witness_eval: (358211466 + 508713830i) + (342513748 + 1230474916i)u
+decommitment_position: 866778
+witness_eval: (366891220 + 622290363i) + (876817554 + 27026694i)u
+decommitment_position: 866779
+query_evals: (378729750 + 1678790031i) + (2142599498 + 1253368433i)u
+decommitment_position: 957360
+witness_eval: (93743623 + 1948288134i) + (1054786724 + 1314981240i)u
+decommitment_position: 957361
+query_evals: (1671307042 + 137758524i) + (568396861 + 1420824587i)u
+decommitment_position: 980238
+witness_eval: (1292304098 + 804095779i) + (1555908747 + 2085954230i)u
+decommitment_position: 980239
+query_evals: (1687050711 + 2083640168i) + (1100504636 + 309675045i)u
+decommitment_position: 1243482
+query_evals: (1779910900 + 854501884i) + (351099314 + 983915161i)u
+decommitment_position: 1243483
+witness_eval: (30792013 + 371958137i) + (756137863 + 1667488948i)u
+decommitment_position: 1385026
+query_evals: (151767375 + 428045329i) + (263138378 + 2131187340i)u
+decommitment_position: 1385027
+witness_eval: (747756269 + 1073964277i) + (1371221683 + 1938057439i)u
+decommitment_position: 1860082
+witness_eval: (1184674777 + 2080639800i) + (145550699 + 649012224i)u
+decommitment_position: 1860083
+query_evals: (1253388438 + 564800713i) + (1285434034 + 372584651i)u
+decommitment_position: 1897536
+witness_eval: (930524168 + 57722800i) + (1640409537 + 1355562587i)u
+decommitment_position: 1897537
+query_evals: (1493496073 + 705517286i) + (335851900 + 1448292065i)u
+decommitment_position: 2065646
+query_evals: (1839059060 + 1548874192i) + (1466164044 + 444101168i)u
+decommitment_position: 2065647
+witness_eval: (195398322 + 1090095519i) + (1251539005 + 1936977100i)u
+subset_domain_index_initials: [419264, 159584, 344204, 21474, 489618, 307690, 42938, 750486, 113454, 923118, 742377, 542869, 651463, 17895, 975935]
+column_domain_log_size: 21
+(1172610432 + 1850530888i) + (1059325212 + 520940248i)u
+(389489552 + 1540580691i) + (1224745412 + 2143215784i)u
+(1621129737 + 2036217466i) + (1128208262 + 1665208349i)u
+(1398030947 + 1918640201i) + (1727124007 + 1620316552i)u
+(2074733203 + 543122776i) + (1774212299 + 1645622527i)u
+(1898562797 + 1240115151i) + (910127012 + 68180813i)u
+(649710905 + 209771102i) + (397607162 + 1090968893i)u
+(1012554912 + 2026682739i) + (1341716012 + 948218504i)u
+(306199231 + 1994249493i) + (644099046 + 546984555i)u
+(1444445926 + 1209866754i) + (1062198184 + 301386176i)u
+(1802847707 + 974369084i) + (1502344442 + 2068619993i)u
+(1013679039 + 77712504i) + (1394391774 + 209719193i)u
+(392255974 + 393520538i) + (1848853635 + 908951287i)u
+(358211466 + 508713830i) + (342513748 + 1230474916i)u
+(366891220 + 622290363i) + (876817554 + 27026694i)u
+(378729750 + 1678790031i) + (2142599498 + 1253368433i)u
+(93743623 + 1948288134i) + (1054786724 + 1314981240i)u
+(1671307042 + 137758524i) + (568396861 + 1420824587i)u
+(1292304098 + 804095779i) + (1555908747 + 2085954230i)u
+(1687050711 + 2083640168i) + (1100504636 + 309675045i)u
+(1779910900 + 854501884i) + (351099314 + 983915161i)u
+(30792013 + 371958137i) + (756137863 + 1667488948i)u
+(151767375 + 428045329i) + (263138378 + 2131187340i)u
+(747756269 + 1073964277i) + (1371221683 + 1938057439i)u
+(1184674777 + 2080639800i) + (145550699 + 649012224i)u
+(1253388438 + 564800713i) + (1285434034 + 372584651i)u
+(930524168 + 57722800i) + (1640409537 + 1355562587i)u
+(1493496073 + 705517286i) + (335851900 + 1448292065i)u
+(1839059060 + 1548874192i) + (1466164044 + 444101168i)u
+(195398322 + 1090095519i) + (1251539005 + 1936977100i)u
+f_at_p: (1172610432 + 1850530888i) + (1059325212 + 520940248i)u
+f_at_neg_p: (389489552 + 1540580691i) + (1224745412 + 2143215784i)u
+f_at_p: (1621129737 + 2036217466i) + (1128208262 + 1665208349i)u
+f_at_neg_p: (1398030947 + 1918640201i) + (1727124007 + 1620316552i)u
+f_at_p: (2074733203 + 543122776i) + (1774212299 + 1645622527i)u
+f_at_neg_p: (1898562797 + 1240115151i) + (910127012 + 68180813i)u
+f_at_p: (649710905 + 209771102i) + (397607162 + 1090968893i)u
+f_at_neg_p: (1012554912 + 2026682739i) + (1341716012 + 948218504i)u
+f_at_p: (306199231 + 1994249493i) + (644099046 + 546984555i)u
+f_at_neg_p: (1444445926 + 1209866754i) + (1062198184 + 301386176i)u
+f_at_p: (1802847707 + 974369084i) + (1502344442 + 2068619993i)u
+f_at_neg_p: (1013679039 + 77712504i) + (1394391774 + 209719193i)u
+f_at_p: (392255974 + 393520538i) + (1848853635 + 908951287i)u
+f_at_neg_p: (358211466 + 508713830i) + (342513748 + 1230474916i)u
+f_at_p: (366891220 + 622290363i) + (876817554 + 27026694i)u
+f_at_neg_p: (378729750 + 1678790031i) + (2142599498 + 1253368433i)u
+f_at_p: (93743623 + 1948288134i) + (1054786724 + 1314981240i)u
+f_at_neg_p: (1671307042 + 137758524i) + (568396861 + 1420824587i)u
+f_at_p: (1292304098 + 804095779i) + (1555908747 + 2085954230i)u
+f_at_neg_p: (1687050711 + 2083640168i) + (1100504636 + 309675045i)u
+f_at_p: (1779910900 + 854501884i) + (351099314 + 983915161i)u
+f_at_neg_p: (30792013 + 371958137i) + (756137863 + 1667488948i)u
+f_at_p: (151767375 + 428045329i) + (263138378 + 2131187340i)u
+f_at_neg_p: (747756269 + 1073964277i) + (1371221683 + 1938057439i)u
+f_at_p: (1184674777 + 2080639800i) + (145550699 + 649012224i)u
+f_at_neg_p: (1253388438 + 564800713i) + (1285434034 + 372584651i)u
+f_at_p: (930524168 + 57722800i) + (1640409537 + 1355562587i)u
+f_at_neg_p: (1493496073 + 705517286i) + (335851900 + 1448292065i)u
+f_at_p: (1839059060 + 1548874192i) + (1466164044 + 444101168i)u
+f_at_neg_p: (195398322 + 1090095519i) + (1251539005 + 1936977100i)u
+decommitment_position: 14950
+query_evals: (1653865319 + 1199344448i) + (481973311 + 730704614i)u
+decommitment_position: 14951
+witness_eval: (629882902 + 270786077i) + (89360173 + 469528029i)u
+decommitment_position: 28516
+query_evals: (1071147413 + 1353154491i) + (1989115953 + 1654471132i)u
+decommitment_position: 28517
+witness_eval: (2048272665 + 1224793979i) + (472834299 + 999221567i)u
+decommitment_position: 200746
+query_evals: (492617338 + 998003621i) + (1651861564 + 1326772433i)u
+decommitment_position: 200747
+witness_eval: (139695241 + 625936672i) + (1364114241 + 573003310i)u
+decommitment_position: 294048
+query_evals: (1605428632 + 1227449872i) + (708846082 + 78267459i)u
+decommitment_position: 294049
+witness_eval: (883272403 + 1538706393i) + (737500335 + 595839123i)u
+decommitment_position: 299502
+query_evals: (98899783 + 66382894i) + (677465423 + 1473288573i)u
+decommitment_position: 299503
+witness_eval: (1714527300 + 345799651i) + (249365651 + 1201473056i)u
+decommitment_position: 358610
+query_evals: (364652447 + 2133382387i) + (813222739 + 1629109055i)u
+decommitment_position: 358611
+witness_eval: (2036403534 + 240762083i) + (820326449 + 341632190i)u
+decommitment_position: 384592
+query_evals: (1009638841 + 992269017i) + (1617894195 + 931345572i)u
+decommitment_position: 384593
+witness_eval: (1121191180 + 1868389837i) + (2025729702 + 908578015i)u
+decommitment_position: 433388
+witness_eval: (520660680 + 1978914768i) + (824933799 + 659461607i)u
+decommitment_position: 433389
+query_evals: (1728154829 + 1974063017i) + (2096592900 + 466122021i)u
+decommitment_position: 478680
+query_evals: (1716291701 + 1534772766i) + (157994080 + 560270238i)u
+decommitment_position: 478681
+witness_eval: (48213277 + 1030585746i) + (1681517615 + 1255636256i)u
+decommitment_position: 490118
+witness_eval: (846084001 + 451816448i) + (156786812 + 1347183311i)u
+decommitment_position: 490119
+query_evals: (1236725635 + 1042045850i) + (652921302 + 796192402i)u
+decommitment_position: 621740
+witness_eval: (1923598952 + 1874834666i) + (746125794 + 837811041i)u
+decommitment_position: 621741
+query_evals: (1631717288 + 1123974629i) + (1798373761 + 1780322105i)u
+decommitment_position: 692512
+witness_eval: (882035533 + 1744083233i) + (258897609 + 444547837i)u
+decommitment_position: 692513
+query_evals: (1811044942 + 235982527i) + (1118724186 + 1453232071i)u
+decommitment_position: 930040
+witness_eval: (815177462 + 618680264i) + (1661246916 + 607261376i)u
+decommitment_position: 930041
+query_evals: (1466892140 + 921964395i) + (864372362 + 2038447344i)u
+decommitment_position: 948768
+query_evals: (1270380887 + 1083377427i) + (1805182596 + 678652370i)u
+decommitment_position: 948769
+witness_eval: (40472320 + 1570656522i) + (2037948641 + 1374171995i)u
+decommitment_position: 1032822
+witness_eval: (113772018 + 1195514691i) + (1938646261 + 89795114i)u
+decommitment_position: 1032823
+query_evals: (403745346 + 961399i) + (310315097 + 1203455765i)u
+subset_domain_index_initials: [419264, 159584, 344204, 21474, 489618, 307690, 42938, 226198, 113454, 398830, 218089, 18581, 127175, 17895, 451647]
+column_domain_log_size: 20
+(1653865319 + 1199344448i) + (481973311 + 730704614i)u
+(629882902 + 270786077i) + (89360173 + 469528029i)u
+(1071147413 + 1353154491i) + (1989115953 + 1654471132i)u
+(2048272665 + 1224793979i) + (472834299 + 999221567i)u
+(492617338 + 998003621i) + (1651861564 + 1326772433i)u
+(139695241 + 625936672i) + (1364114241 + 573003310i)u
+(1605428632 + 1227449872i) + (708846082 + 78267459i)u
+(883272403 + 1538706393i) + (737500335 + 595839123i)u
+(98899783 + 66382894i) + (677465423 + 1473288573i)u
+(1714527300 + 345799651i) + (249365651 + 1201473056i)u
+(364652447 + 2133382387i) + (813222739 + 1629109055i)u
+(2036403534 + 240762083i) + (820326449 + 341632190i)u
+(1009638841 + 992269017i) + (1617894195 + 931345572i)u
+(1121191180 + 1868389837i) + (2025729702 + 908578015i)u
+(520660680 + 1978914768i) + (824933799 + 659461607i)u
+(1728154829 + 1974063017i) + (2096592900 + 466122021i)u
+(1716291701 + 1534772766i) + (157994080 + 560270238i)u
+(48213277 + 1030585746i) + (1681517615 + 1255636256i)u
+(846084001 + 451816448i) + (156786812 + 1347183311i)u
+(1236725635 + 1042045850i) + (652921302 + 796192402i)u
+(1923598952 + 1874834666i) + (746125794 + 837811041i)u
+(1631717288 + 1123974629i) + (1798373761 + 1780322105i)u
+(882035533 + 1744083233i) + (258897609 + 444547837i)u
+(1811044942 + 235982527i) + (1118724186 + 1453232071i)u
+(815177462 + 618680264i) + (1661246916 + 607261376i)u
+(1466892140 + 921964395i) + (864372362 + 2038447344i)u
+(1270380887 + 1083377427i) + (1805182596 + 678652370i)u
+(40472320 + 1570656522i) + (2037948641 + 1374171995i)u
+(113772018 + 1195514691i) + (1938646261 + 89795114i)u
+(403745346 + 961399i) + (310315097 + 1203455765i)u
+f_at_p: (1653865319 + 1199344448i) + (481973311 + 730704614i)u
+f_at_neg_p: (629882902 + 270786077i) + (89360173 + 469528029i)u
+f_at_p: (1071147413 + 1353154491i) + (1989115953 + 1654471132i)u
+f_at_neg_p: (2048272665 + 1224793979i) + (472834299 + 999221567i)u
+f_at_p: (492617338 + 998003621i) + (1651861564 + 1326772433i)u
+f_at_neg_p: (139695241 + 625936672i) + (1364114241 + 573003310i)u
+f_at_p: (1605428632 + 1227449872i) + (708846082 + 78267459i)u
+f_at_neg_p: (883272403 + 1538706393i) + (737500335 + 595839123i)u
+f_at_p: (98899783 + 66382894i) + (677465423 + 1473288573i)u
+f_at_neg_p: (1714527300 + 345799651i) + (249365651 + 1201473056i)u
+f_at_p: (364652447 + 2133382387i) + (813222739 + 1629109055i)u
+f_at_neg_p: (2036403534 + 240762083i) + (820326449 + 341632190i)u
+f_at_p: (1009638841 + 992269017i) + (1617894195 + 931345572i)u
+f_at_neg_p: (1121191180 + 1868389837i) + (2025729702 + 908578015i)u
+f_at_p: (520660680 + 1978914768i) + (824933799 + 659461607i)u
+f_at_neg_p: (1728154829 + 1974063017i) + (2096592900 + 466122021i)u
+f_at_p: (1716291701 + 1534772766i) + (157994080 + 560270238i)u
+f_at_neg_p: (48213277 + 1030585746i) + (1681517615 + 1255636256i)u
+f_at_p: (846084001 + 451816448i) + (156786812 + 1347183311i)u
+f_at_neg_p: (1236725635 + 1042045850i) + (652921302 + 796192402i)u
+f_at_p: (1923598952 + 1874834666i) + (746125794 + 837811041i)u
+f_at_neg_p: (1631717288 + 1123974629i) + (1798373761 + 1780322105i)u
+f_at_p: (882035533 + 1744083233i) + (258897609 + 444547837i)u
+f_at_neg_p: (1811044942 + 235982527i) + (1118724186 + 1453232071i)u
+f_at_p: (815177462 + 618680264i) + (1661246916 + 607261376i)u
+f_at_neg_p: (1466892140 + 921964395i) + (864372362 + 2038447344i)u
+f_at_p: (1270380887 + 1083377427i) + (1805182596 + 678652370i)u
+f_at_neg_p: (40472320 + 1570656522i) + (2037948641 + 1374171995i)u
+f_at_p: (113772018 + 1195514691i) + (1938646261 + 89795114i)u
+f_at_neg_p: (403745346 + 961399i) + (310315097 + 1203455765i)u
+decommitment_position: 7474
+witness_eval: (1146940547 + 2056231329i) + (1058083686 + 879538244i)u
+decommitment_position: 7475
+query_evals: (278326335 + 889121306i) + (1129929319 + 1386653455i)u
+decommitment_position: 14258
+query_evals: (661881826 + 531969063i) + (2080039203 + 1040577472i)u
+decommitment_position: 14259
+witness_eval: (1555018824 + 1593731520i) + (1927375358 + 842030876i)u
+decommitment_position: 100372
+witness_eval: (1082917538 + 551436864i) + (2143233253 + 224450448i)u
+decommitment_position: 100373
+query_evals: (1600597941 + 1971843991i) + (89848842 + 598714489i)u
+decommitment_position: 147024
+query_evals: (1626853401 + 1977415198i) + (1853830751 + 681796150i)u
+decommitment_position: 147025
+witness_eval: (1465027009 + 1250269096i) + (813831827 + 1342284774i)u
+decommitment_position: 149750
+witness_eval: (1447380491 + 2038764596i) + (1822702384 + 766828337i)u
+decommitment_position: 149751
+query_evals: (1376378596 + 1657489514i) + (131276777 + 256493536i)u
+decommitment_position: 179304
+witness_eval: (643477521 + 2146364505i) + (1474100773 + 1346546366i)u
+decommitment_position: 179305
+query_evals: (101615073 + 654098990i) + (508646116 + 1518171147i)u
+decommitment_position: 192296
+query_evals: (1063784342 + 990901855i) + (1251775376 + 1172551508i)u
+decommitment_position: 192297
+witness_eval: (266233815 + 176753542i) + (2034822094 + 1752994032i)u
+decommitment_position: 216694
+query_evals: (1482471148 + 1761926675i) + (2144567716 + 1897599709i)u
+decommitment_position: 216695
+witness_eval: (717011630 + 1637929785i) + (1339990257 + 1955892723i)u
+decommitment_position: 239340
+query_evals: (1241994924 + 15390380i) + (2025539350 + 1297845580i)u
+decommitment_position: 239341
+witness_eval: (848683788 + 1897426566i) + (541913805 + 1175324938i)u
+decommitment_position: 245058
+witness_eval: (280935482 + 314599218i) + (349015686 + 1683771446i)u
+decommitment_position: 245059
+query_evals: (1035472057 + 707487714i) + (1394695698 + 1641119231i)u
+decommitment_position: 310870
+query_evals: (1198219754 + 1587317986i) + (1694066310 + 1954120509i)u
+decommitment_position: 310871
+witness_eval: (1492152298 + 542027552i) + (2139218251 + 873548242i)u
+decommitment_position: 346256
+query_evals: (1205952247 + 520681868i) + (446130425 + 946018061i)u
+decommitment_position: 346257
+witness_eval: (1527504275 + 228702641i) + (1945648056 + 615355270i)u
+decommitment_position: 465020
+query_evals: (1337866571 + 1192390822i) + (1460233535 + 363944966i)u
+decommitment_position: 465021
+witness_eval: (493846910 + 272648678i) + (1772592485 + 114980737i)u
+decommitment_position: 474384
+query_evals: (1597090750 + 1313146189i) + (1748153420 + 1767441241i)u
+decommitment_position: 474385
+witness_eval: (1368653213 + 725474589i) + (733404915 + 651282622i)u
+decommitment_position: 516410
+witness_eval: (1355338829 + 43797504i) + (241638025 + 1750239185i)u
+decommitment_position: 516411
+query_evals: (135203367 + 628544603i) + (916993139 + 603868466i)u
+subset_domain_index_initials: [157120, 159584, 82060, 21474, 227474, 45546, 42938, 226198, 113454, 136686, 218089, 18581, 127175, 17895, 189503]
+column_domain_log_size: 19
+(1146940547 + 2056231329i) + (1058083686 + 879538244i)u
+(278326335 + 889121306i) + (1129929319 + 1386653455i)u
+(661881826 + 531969063i) + (2080039203 + 1040577472i)u
+(1555018824 + 1593731520i) + (1927375358 + 842030876i)u
+(1082917538 + 551436864i) + (2143233253 + 224450448i)u
+(1600597941 + 1971843991i) + (89848842 + 598714489i)u
+(1626853401 + 1977415198i) + (1853830751 + 681796150i)u
+(1465027009 + 1250269096i) + (813831827 + 1342284774i)u
+(1447380491 + 2038764596i) + (1822702384 + 766828337i)u
+(1376378596 + 1657489514i) + (131276777 + 256493536i)u
+(643477521 + 2146364505i) + (1474100773 + 1346546366i)u
+(101615073 + 654098990i) + (508646116 + 1518171147i)u
+(1063784342 + 990901855i) + (1251775376 + 1172551508i)u
+(266233815 + 176753542i) + (2034822094 + 1752994032i)u
+(1482471148 + 1761926675i) + (2144567716 + 1897599709i)u
+(717011630 + 1637929785i) + (1339990257 + 1955892723i)u
+(1241994924 + 15390380i) + (2025539350 + 1297845580i)u
+(848683788 + 1897426566i) + (541913805 + 1175324938i)u
+(280935482 + 314599218i) + (349015686 + 1683771446i)u
+(1035472057 + 707487714i) + (1394695698 + 1641119231i)u
+(1198219754 + 1587317986i) + (1694066310 + 1954120509i)u
+(1492152298 + 542027552i) + (2139218251 + 873548242i)u
+(1205952247 + 520681868i) + (446130425 + 946018061i)u
+(1527504275 + 228702641i) + (1945648056 + 615355270i)u
+(1337866571 + 1192390822i) + (1460233535 + 363944966i)u
+(493846910 + 272648678i) + (1772592485 + 114980737i)u
+(1597090750 + 1313146189i) + (1748153420 + 1767441241i)u
+(1368653213 + 725474589i) + (733404915 + 651282622i)u
+(1355338829 + 43797504i) + (241638025 + 1750239185i)u
+(135203367 + 628544603i) + (916993139 + 603868466i)u
+f_at_p: (1146940547 + 2056231329i) + (1058083686 + 879538244i)u
+f_at_neg_p: (278326335 + 889121306i) + (1129929319 + 1386653455i)u
+f_at_p: (661881826 + 531969063i) + (2080039203 + 1040577472i)u
+f_at_neg_p: (1555018824 + 1593731520i) + (1927375358 + 842030876i)u
+f_at_p: (1082917538 + 551436864i) + (2143233253 + 224450448i)u
+f_at_neg_p: (1600597941 + 1971843991i) + (89848842 + 598714489i)u
+f_at_p: (1626853401 + 1977415198i) + (1853830751 + 681796150i)u
+f_at_neg_p: (1465027009 + 1250269096i) + (813831827 + 1342284774i)u
+f_at_p: (1447380491 + 2038764596i) + (1822702384 + 766828337i)u
+f_at_neg_p: (1376378596 + 1657489514i) + (131276777 + 256493536i)u
+f_at_p: (643477521 + 2146364505i) + (1474100773 + 1346546366i)u
+f_at_neg_p: (101615073 + 654098990i) + (508646116 + 1518171147i)u
+f_at_p: (1063784342 + 990901855i) + (1251775376 + 1172551508i)u
+f_at_neg_p: (266233815 + 176753542i) + (2034822094 + 1752994032i)u
+f_at_p: (1482471148 + 1761926675i) + (2144567716 + 1897599709i)u
+f_at_neg_p: (717011630 + 1637929785i) + (1339990257 + 1955892723i)u
+f_at_p: (1241994924 + 15390380i) + (2025539350 + 1297845580i)u
+f_at_neg_p: (848683788 + 1897426566i) + (541913805 + 1175324938i)u
+f_at_p: (280935482 + 314599218i) + (349015686 + 1683771446i)u
+f_at_neg_p: (1035472057 + 707487714i) + (1394695698 + 1641119231i)u
+f_at_p: (1198219754 + 1587317986i) + (1694066310 + 1954120509i)u
+f_at_neg_p: (1492152298 + 542027552i) + (2139218251 + 873548242i)u
+f_at_p: (1205952247 + 520681868i) + (446130425 + 946018061i)u
+f_at_neg_p: (1527504275 + 228702641i) + (1945648056 + 615355270i)u
+f_at_p: (1337866571 + 1192390822i) + (1460233535 + 363944966i)u
+f_at_neg_p: (493846910 + 272648678i) + (1772592485 + 114980737i)u
+f_at_p: (1597090750 + 1313146189i) + (1748153420 + 1767441241i)u
+f_at_neg_p: (1368653213 + 725474589i) + (733404915 + 651282622i)u
+f_at_p: (1355338829 + 43797504i) + (241638025 + 1750239185i)u
+f_at_neg_p: (135203367 + 628544603i) + (916993139 + 603868466i)u
+decommitment_position: 3736
+witness_eval: (0 + 0i) + (0 + 0i)u
+decommitment_position: 3737
+query_evals: (0 + 0i) + (0 + 0i)u
+decommitment_position: 7128
+witness_eval: (0 + 0i) + (0 + 0i)u
+decommitment_position: 7129
+query_evals: (0 + 0i) + (0 + 0i)u
+decommitment_position: 50186
+query_evals: (0 + 0i) + (0 + 0i)u
+decommitment_position: 50187
+witness_eval: (0 + 0i) + (0 + 0i)u
+decommitment_position: 73512
+query_evals: (0 + 0i) + (0 + 0i)u
+decommitment_position: 73513
+witness_eval: (0 + 0i) + (0 + 0i)u
+decommitment_position: 74874
+witness_eval: (0 + 0i) + (0 + 0i)u
+decommitment_position: 74875
+query_evals: (0 + 0i) + (0 + 0i)u
+decommitment_position: 89652
+query_evals: (0 + 0i) + (0 + 0i)u
+decommitment_position: 89653
+witness_eval: (0 + 0i) + (0 + 0i)u
+decommitment_position: 96148
+query_evals: (0 + 0i) + (0 + 0i)u
+decommitment_position: 96149
+witness_eval: (0 + 0i) + (0 + 0i)u
+decommitment_position: 108346
+witness_eval: (0 + 0i) + (0 + 0i)u
+decommitment_position: 108347
+query_evals: (0 + 0i) + (0 + 0i)u
+decommitment_position: 119670
+query_evals: (0 + 0i) + (0 + 0i)u
+decommitment_position: 119671
+witness_eval: (0 + 0i) + (0 + 0i)u
+decommitment_position: 122528
+witness_eval: (0 + 0i) + (0 + 0i)u
+decommitment_position: 122529
+query_evals: (0 + 0i) + (0 + 0i)u
+decommitment_position: 155434
+witness_eval: (0 + 0i) + (0 + 0i)u
+decommitment_position: 155435
+query_evals: (0 + 0i) + (0 + 0i)u
+decommitment_position: 173128
+query_evals: (0 + 0i) + (0 + 0i)u
+decommitment_position: 173129
+witness_eval: (0 + 0i) + (0 + 0i)u
+decommitment_position: 232510
+query_evals: (0 + 0i) + (0 + 0i)u
+decommitment_position: 232511
+witness_eval: (0 + 0i) + (0 + 0i)u
+decommitment_position: 237192
+query_evals: (0 + 0i) + (0 + 0i)u
+decommitment_position: 237193
+witness_eval: (0 + 0i) + (0 + 0i)u
+decommitment_position: 258204
+witness_eval: (0 + 0i) + (0 + 0i)u
+decommitment_position: 258205
+query_evals: (0 + 0i) + (0 + 0i)u
+subset_domain_index_initials: [26048, 28512, 82060, 21474, 96402, 45546, 42938, 95126, 113454, 5614, 87017, 18581, 127175, 17895, 58431]
+column_domain_log_size: 18
+(0 + 0i) + (0 + 0i)u
+(0 + 0i) + (0 + 0i)u
+(0 + 0i) + (0 + 0i)u
+(0 + 0i) + (0 + 0i)u
+(0 + 0i) + (0 + 0i)u
+(0 + 0i) + (0 + 0i)u
+(0 + 0i) + (0 + 0i)u
+(0 + 0i) + (0 + 0i)u
+(0 + 0i) + (0 + 0i)u
+(0 + 0i) + (0 + 0i)u
+(0 + 0i) + (0 + 0i)u
+(0 + 0i) + (0 + 0i)u
+(0 + 0i) + (0 + 0i)u
+(0 + 0i) + (0 + 0i)u
+(0 + 0i) + (0 + 0i)u
+(0 + 0i) + (0 + 0i)u
+(0 + 0i) + (0 + 0i)u
+(0 + 0i) + (0 + 0i)u
+(0 + 0i) + (0 + 0i)u
+(0 + 0i) + (0 + 0i)u
+(0 + 0i) + (0 + 0i)u
+(0 + 0i) + (0 + 0i)u
+(0 + 0i) + (0 + 0i)u
+(0 + 0i) + (0 + 0i)u
+(0 + 0i) + (0 + 0i)u
+(0 + 0i) + (0 + 0i)u
+(0 + 0i) + (0 + 0i)u
+(0 + 0i) + (0 + 0i)u
+(0 + 0i) + (0 + 0i)u
+(0 + 0i) + (0 + 0i)u
+f_at_p: (0 + 0i) + (0 + 0i)u
+f_at_neg_p: (0 + 0i) + (0 + 0i)u
+f_at_p: (0 + 0i) + (0 + 0i)u
+f_at_neg_p: (0 + 0i) + (0 + 0i)u
+f_at_p: (0 + 0i) + (0 + 0i)u
+f_at_neg_p: (0 + 0i) + (0 + 0i)u
+f_at_p: (0 + 0i) + (0 + 0i)u
+f_at_neg_p: (0 + 0i) + (0 + 0i)u
+f_at_p: (0 + 0i) + (0 + 0i)u
+f_at_neg_p: (0 + 0i) + (0 + 0i)u
+f_at_p: (0 + 0i) + (0 + 0i)u
+f_at_neg_p: (0 + 0i) + (0 + 0i)u
+f_at_p: (0 + 0i) + (0 + 0i)u
+f_at_neg_p: (0 + 0i) + (0 + 0i)u
+f_at_p: (0 + 0i) + (0 + 0i)u
+f_at_neg_p: (0 + 0i) + (0 + 0i)u
+f_at_p: (0 + 0i) + (0 + 0i)u
+f_at_neg_p: (0 + 0i) + (0 + 0i)u
+f_at_p: (0 + 0i) + (0 + 0i)u
+f_at_neg_p: (0 + 0i) + (0 + 0i)u
+f_at_p: (0 + 0i) + (0 + 0i)u
+f_at_neg_p: (0 + 0i) + (0 + 0i)u
+f_at_p: (0 + 0i) + (0 + 0i)u
+f_at_neg_p: (0 + 0i) + (0 + 0i)u
+f_at_p: (0 + 0i) + (0 + 0i)u
+f_at_neg_p: (0 + 0i) + (0 + 0i)u
+f_at_p: (0 + 0i) + (0 + 0i)u
+f_at_neg_p: (0 + 0i) + (0 + 0i)u
+f_at_p: (0 + 0i) + (0 + 0i)u
+f_at_neg_p: (0 + 0i) + (0 + 0i)u
+decommitment_position: 1868
+query_evals: (0 + 0i) + (0 + 0i)u
+decommitment_position: 1869
+witness_eval: (0 + 0i) + (0 + 0i)u
+decommitment_position: 3564
+query_evals: (0 + 0i) + (0 + 0i)u
+decommitment_position: 3565
+witness_eval: (0 + 0i) + (0 + 0i)u
+decommitment_position: 25092
+witness_eval: (0 + 0i) + (0 + 0i)u
+decommitment_position: 25093
+query_evals: (0 + 0i) + (0 + 0i)u
+decommitment_position: 36756
+query_evals: (0 + 0i) + (0 + 0i)u
+decommitment_position: 36757
+witness_eval: (0 + 0i) + (0 + 0i)u
+decommitment_position: 37436
+witness_eval: (0 + 0i) + (0 + 0i)u
+decommitment_position: 37437
+query_evals: (0 + 0i) + (0 + 0i)u
+decommitment_position: 44826
+query_evals: (0 + 0i) + (0 + 0i)u
+decommitment_position: 44827
+witness_eval: (0 + 0i) + (0 + 0i)u
+decommitment_position: 48074
+query_evals: (0 + 0i) + (0 + 0i)u
+decommitment_position: 48075
+witness_eval: (0 + 0i) + (0 + 0i)u
+decommitment_position: 54172
+witness_eval: (0 + 0i) + (0 + 0i)u
+decommitment_position: 54173
+query_evals: (0 + 0i) + (0 + 0i)u
+decommitment_position: 59834
+witness_eval: (0 + 0i) + (0 + 0i)u
+decommitment_position: 59835
+query_evals: (0 + 0i) + (0 + 0i)u
+decommitment_position: 61264
+query_evals: (0 + 0i) + (0 + 0i)u
+decommitment_position: 61265
+witness_eval: (0 + 0i) + (0 + 0i)u
+decommitment_position: 77716
+witness_eval: (0 + 0i) + (0 + 0i)u
+decommitment_position: 77717
+query_evals: (0 + 0i) + (0 + 0i)u
+decommitment_position: 86564
+query_evals: (0 + 0i) + (0 + 0i)u
+decommitment_position: 86565
+witness_eval: (0 + 0i) + (0 + 0i)u
+decommitment_position: 116254
+witness_eval: (0 + 0i) + (0 + 0i)u
+decommitment_position: 116255
+query_evals: (0 + 0i) + (0 + 0i)u
+decommitment_position: 118596
+query_evals: (0 + 0i) + (0 + 0i)u
+decommitment_position: 118597
+witness_eval: (0 + 0i) + (0 + 0i)u
+decommitment_position: 129102
+query_evals: (0 + 0i) + (0 + 0i)u
+decommitment_position: 129103
+witness_eval: (0 + 0i) + (0 + 0i)u
+subset_domain_index_initials: [26048, 28512, 16524, 21474, 30866, 45546, 42938, 29590, 47918, 5614, 21481, 18581, 61639, 17895, 58431]
+column_domain_log_size: 17
+(0 + 0i) + (0 + 0i)u
+(0 + 0i) + (0 + 0i)u
+(0 + 0i) + (0 + 0i)u
+(0 + 0i) + (0 + 0i)u
+(0 + 0i) + (0 + 0i)u
+(0 + 0i) + (0 + 0i)u
+(0 + 0i) + (0 + 0i)u
+(0 + 0i) + (0 + 0i)u
+(0 + 0i) + (0 + 0i)u
+(0 + 0i) + (0 + 0i)u
+(0 + 0i) + (0 + 0i)u
+(0 + 0i) + (0 + 0i)u
+(0 + 0i) + (0 + 0i)u
+(0 + 0i) + (0 + 0i)u
+(0 + 0i) + (0 + 0i)u
+(0 + 0i) + (0 + 0i)u
+(0 + 0i) + (0 + 0i)u
+(0 + 0i) + (0 + 0i)u
+(0 + 0i) + (0 + 0i)u
+(0 + 0i) + (0 + 0i)u
+(0 + 0i) + (0 + 0i)u
+(0 + 0i) + (0 + 0i)u
+(0 + 0i) + (0 + 0i)u
+(0 + 0i) + (0 + 0i)u
+(0 + 0i) + (0 + 0i)u
+(0 + 0i) + (0 + 0i)u
+(0 + 0i) + (0 + 0i)u
+(0 + 0i) + (0 + 0i)u
+(0 + 0i) + (0 + 0i)u
+(0 + 0i) + (0 + 0i)u
+f_at_p: (0 + 0i) + (0 + 0i)u
+f_at_neg_p: (0 + 0i) + (0 + 0i)u
+f_at_p: (0 + 0i) + (0 + 0i)u
+f_at_neg_p: (0 + 0i) + (0 + 0i)u
+f_at_p: (0 + 0i) + (0 + 0i)u
+f_at_neg_p: (0 + 0i) + (0 + 0i)u
+f_at_p: (0 + 0i) + (0 + 0i)u
+f_at_neg_p: (0 + 0i) + (0 + 0i)u
+f_at_p: (0 + 0i) + (0 + 0i)u
+f_at_neg_p: (0 + 0i) + (0 + 0i)u
+f_at_p: (0 + 0i) + (0 + 0i)u
+f_at_neg_p: (0 + 0i) + (0 + 0i)u
+f_at_p: (0 + 0i) + (0 + 0i)u
+f_at_neg_p: (0 + 0i) + (0 + 0i)u
+f_at_p: (0 + 0i) + (0 + 0i)u
+f_at_neg_p: (0 + 0i) + (0 + 0i)u
+f_at_p: (0 + 0i) + (0 + 0i)u
+f_at_neg_p: (0 + 0i) + (0 + 0i)u
+f_at_p: (0 + 0i) + (0 + 0i)u
+f_at_neg_p: (0 + 0i) + (0 + 0i)u
+f_at_p: (0 + 0i) + (0 + 0i)u
+f_at_neg_p: (0 + 0i) + (0 + 0i)u
+f_at_p: (0 + 0i) + (0 + 0i)u
+f_at_neg_p: (0 + 0i) + (0 + 0i)u
+f_at_p: (0 + 0i) + (0 + 0i)u
+f_at_neg_p: (0 + 0i) + (0 + 0i)u
+f_at_p: (0 + 0i) + (0 + 0i)u
+f_at_neg_p: (0 + 0i) + (0 + 0i)u
+f_at_p: (0 + 0i) + (0 + 0i)u
+f_at_neg_p: (0 + 0i) + (0 + 0i)u
+decommitment_position: 934
+query_evals: (0 + 0i) + (0 + 0i)u
+decommitment_position: 935
+witness_eval: (0 + 0i) + (0 + 0i)u
+decommitment_position: 1782
+query_evals: (0 + 0i) + (0 + 0i)u
+decommitment_position: 1783
+witness_eval: (0 + 0i) + (0 + 0i)u
+decommitment_position: 12546
+query_evals: (0 + 0i) + (0 + 0i)u
+decommitment_position: 12547
+witness_eval: (0 + 0i) + (0 + 0i)u
+decommitment_position: 18378
+query_evals: (0 + 0i) + (0 + 0i)u
+decommitment_position: 18379
+witness_eval: (0 + 0i) + (0 + 0i)u
+decommitment_position: 18718
+query_evals: (0 + 0i) + (0 + 0i)u
+decommitment_position: 18719
+witness_eval: (0 + 0i) + (0 + 0i)u
+decommitment_position: 22412
+witness_eval: (0 + 0i) + (0 + 0i)u
+decommitment_position: 22413
+query_evals: (0 + 0i) + (0 + 0i)u
+decommitment_position: 24036
+witness_eval: (0 + 0i) + (0 + 0i)u
+decommitment_position: 24037
+query_evals: (0 + 0i) + (0 + 0i)u
+decommitment_position: 27086
+query_evals: (0 + 0i) + (0 + 0i)u
+decommitment_position: 27087
+witness_eval: (0 + 0i) + (0 + 0i)u
+decommitment_position: 29916
+witness_eval: (0 + 0i) + (0 + 0i)u
+decommitment_position: 29917
+query_evals: (0 + 0i) + (0 + 0i)u
+decommitment_position: 30632
+query_evals: (0 + 0i) + (0 + 0i)u
+decommitment_position: 30633
+witness_eval: (0 + 0i) + (0 + 0i)u
+decommitment_position: 38858
+query_evals: (0 + 0i) + (0 + 0i)u
+decommitment_position: 38859
+witness_eval: (0 + 0i) + (0 + 0i)u
+decommitment_position: 43282
+query_evals: (0 + 0i) + (0 + 0i)u
+decommitment_position: 43283
+witness_eval: (0 + 0i) + (0 + 0i)u
+decommitment_position: 58126
+witness_eval: (0 + 0i) + (0 + 0i)u
+decommitment_position: 58127
+query_evals: (0 + 0i) + (0 + 0i)u
+decommitment_position: 59298
+query_evals: (0 + 0i) + (0 + 0i)u
+decommitment_position: 59299
+witness_eval: (0 + 0i) + (0 + 0i)u
+decommitment_position: 64550
+witness_eval: (0 + 0i) + (0 + 0i)u
+decommitment_position: 64551
+query_evals: (0 + 0i) + (0 + 0i)u
+subset_domain_index_initials: [26048, 28512, 16524, 21474, 30866, 12778, 10170, 29590, 15150, 5614, 21481, 18581, 28871, 17895, 25663]
+column_domain_log_size: 16
+(0 + 0i) + (0 + 0i)u
+(0 + 0i) + (0 + 0i)u
+(0 + 0i) + (0 + 0i)u
+(0 + 0i) + (0 + 0i)u
+(0 + 0i) + (0 + 0i)u
+(0 + 0i) + (0 + 0i)u
+(0 + 0i) + (0 + 0i)u
+(0 + 0i) + (0 + 0i)u
+(0 + 0i) + (0 + 0i)u
+(0 + 0i) + (0 + 0i)u
+(0 + 0i) + (0 + 0i)u
+(0 + 0i) + (0 + 0i)u
+(0 + 0i) + (0 + 0i)u
+(0 + 0i) + (0 + 0i)u
+(0 + 0i) + (0 + 0i)u
+(0 + 0i) + (0 + 0i)u
+(0 + 0i) + (0 + 0i)u
+(0 + 0i) + (0 + 0i)u
+(0 + 0i) + (0 + 0i)u
+(0 + 0i) + (0 + 0i)u
+(0 + 0i) + (0 + 0i)u
+(0 + 0i) + (0 + 0i)u
+(0 + 0i) + (0 + 0i)u
+(0 + 0i) + (0 + 0i)u
+(0 + 0i) + (0 + 0i)u
+(0 + 0i) + (0 + 0i)u
+(0 + 0i) + (0 + 0i)u
+(0 + 0i) + (0 + 0i)u
+(0 + 0i) + (0 + 0i)u
+(0 + 0i) + (0 + 0i)u
+f_at_p: (0 + 0i) + (0 + 0i)u
+f_at_neg_p: (0 + 0i) + (0 + 0i)u
+f_at_p: (0 + 0i) + (0 + 0i)u
+f_at_neg_p: (0 + 0i) + (0 + 0i)u
+f_at_p: (0 + 0i) + (0 + 0i)u
+f_at_neg_p: (0 + 0i) + (0 + 0i)u
+f_at_p: (0 + 0i) + (0 + 0i)u
+f_at_neg_p: (0 + 0i) + (0 + 0i)u
+f_at_p: (0 + 0i) + (0 + 0i)u
+f_at_neg_p: (0 + 0i) + (0 + 0i)u
+f_at_p: (0 + 0i) + (0 + 0i)u
+f_at_neg_p: (0 + 0i) + (0 + 0i)u
+f_at_p: (0 + 0i) + (0 + 0i)u
+f_at_neg_p: (0 + 0i) + (0 + 0i)u
+f_at_p: (0 + 0i) + (0 + 0i)u
+f_at_neg_p: (0 + 0i) + (0 + 0i)u
+f_at_p: (0 + 0i) + (0 + 0i)u
+f_at_neg_p: (0 + 0i) + (0 + 0i)u
+f_at_p: (0 + 0i) + (0 + 0i)u
+f_at_neg_p: (0 + 0i) + (0 + 0i)u
+f_at_p: (0 + 0i) + (0 + 0i)u
+f_at_neg_p: (0 + 0i) + (0 + 0i)u
+f_at_p: (0 + 0i) + (0 + 0i)u
+f_at_neg_p: (0 + 0i) + (0 + 0i)u
+f_at_p: (0 + 0i) + (0 + 0i)u
+f_at_neg_p: (0 + 0i) + (0 + 0i)u
+f_at_p: (0 + 0i) + (0 + 0i)u
+f_at_neg_p: (0 + 0i) + (0 + 0i)u
+f_at_p: (0 + 0i) + (0 + 0i)u
+f_at_neg_p: (0 + 0i) + (0 + 0i)u
+decommitment_position: 466
+witness_eval: (1214614360 + 1940470955i) + (1331035978 + 2013493845i)u
+decommitment_position: 467
+query_evals: (1669538488 + 1833581412i) + (144006315 + 1270056508i)u
+decommitment_position: 890
+witness_eval: (1907171545 + 622341483i) + (1888756137 + 1614143330i)u
+decommitment_position: 891
+query_evals: (507441464 + 1862548527i) + (1779106576 + 137677870i)u
+decommitment_position: 6272
+witness_eval: (1749764784 + 1733893339i) + (749267443 + 1480302632i)u
+decommitment_position: 6273
+query_evals: (1838041868 + 30129157i) + (638354142 + 1874653164i)u
+decommitment_position: 9188
+witness_eval: (1573818427 + 892178446i) + (843978961 + 319866912i)u
+decommitment_position: 9189
+query_evals: (849665494 + 19939128i) + (1817447621 + 375394455i)u
+decommitment_position: 9358
+witness_eval: (701856935 + 427989524i) + (931315967 + 268037890i)u
+decommitment_position: 9359
+query_evals: (1858784378 + 1860072417i) + (1021783322 + 313890126i)u
+decommitment_position: 11206
+query_evals: (141923845 + 1353575604i) + (1255282935 + 1780439199i)u
+decommitment_position: 11207
+witness_eval: (1337064174 + 1024074696i) + (1935600977 + 1560576310i)u
+decommitment_position: 12018
+query_evals: (672766916 + 1972162155i) + (535090293 + 1432006559i)u
+decommitment_position: 12019
+witness_eval: (1174176285 + 986037586i) + (787640666 + 1970903658i)u
+decommitment_position: 13542
+witness_eval: (2042430913 + 148454503i) + (831264201 + 1898776437i)u
+decommitment_position: 13543
+query_evals: (2114580245 + 805971213i) + (650986234 + 1322931135i)u
+decommitment_position: 14958
+query_evals: (2007172266 + 1820312619i) + (1630463669 + 1307158856i)u
+decommitment_position: 14959
+witness_eval: (933127847 + 195030595i) + (1087206395 + 1873416804i)u
+decommitment_position: 15316
+query_evals: (1382147913 + 669707467i) + (1319288436 + 1311724013i)u
+decommitment_position: 15317
+witness_eval: (1874734697 + 916915199i) + (1728205283 + 1393405072i)u
+decommitment_position: 19428
+witness_eval: (784209443 + 1875561973i) + (646378741 + 1226903896i)u
+decommitment_position: 19429
+query_evals: (1197533122 + 241411818i) + (389952001 + 1088767434i)u
+decommitment_position: 21640
+witness_eval: (968580382 + 2132687518i) + (1452913911 + 212910899i)u
+decommitment_position: 21641
+query_evals: (1577191202 + 953522212i) + (695643884 + 1981580511i)u
+decommitment_position: 29062
+witness_eval: (1859440406 + 436663637i) + (2140475515 + 1971474046i)u
+decommitment_position: 29063
+query_evals: (1810170712 + 733473492i) + (707122336 + 305306908i)u
+decommitment_position: 29648
+witness_eval: (1919180346 + 300964902i) + (878383986 + 837712435i)u
+decommitment_position: 29649
+query_evals: (249315404 + 240912884i) + (1158520544 + 1420405009i)u
+decommitment_position: 32274
+witness_eval: (695202856 + 1896991789i) + (1362743948 + 1011034964i)u
+decommitment_position: 32275
+query_evals: (532438005 + 1595252559i) + (1164101646 + 79565599i)u
+subset_domain_index_initials: [9664, 12128, 140, 5090, 14482, 12778, 10170, 13206, 15150, 5614, 5097, 2197, 12487, 1511, 9279]
+column_domain_log_size: 15
+(1214614360 + 1940470955i) + (1331035978 + 2013493845i)u
+(1669538488 + 1833581412i) + (144006315 + 1270056508i)u
+(1907171545 + 622341483i) + (1888756137 + 1614143330i)u
+(507441464 + 1862548527i) + (1779106576 + 137677870i)u
+(1749764784 + 1733893339i) + (749267443 + 1480302632i)u
+(1838041868 + 30129157i) + (638354142 + 1874653164i)u
+(1573818427 + 892178446i) + (843978961 + 319866912i)u
+(849665494 + 19939128i) + (1817447621 + 375394455i)u
+(701856935 + 427989524i) + (931315967 + 268037890i)u
+(1858784378 + 1860072417i) + (1021783322 + 313890126i)u
+(141923845 + 1353575604i) + (1255282935 + 1780439199i)u
+(1337064174 + 1024074696i) + (1935600977 + 1560576310i)u
+(672766916 + 1972162155i) + (535090293 + 1432006559i)u
+(1174176285 + 986037586i) + (787640666 + 1970903658i)u
+(2042430913 + 148454503i) + (831264201 + 1898776437i)u
+(2114580245 + 805971213i) + (650986234 + 1322931135i)u
+(2007172266 + 1820312619i) + (1630463669 + 1307158856i)u
+(933127847 + 195030595i) + (1087206395 + 1873416804i)u
+(1382147913 + 669707467i) + (1319288436 + 1311724013i)u
+(1874734697 + 916915199i) + (1728205283 + 1393405072i)u
+(784209443 + 1875561973i) + (646378741 + 1226903896i)u
+(1197533122 + 241411818i) + (389952001 + 1088767434i)u
+(968580382 + 2132687518i) + (1452913911 + 212910899i)u
+(1577191202 + 953522212i) + (695643884 + 1981580511i)u
+(1859440406 + 436663637i) + (2140475515 + 1971474046i)u
+(1810170712 + 733473492i) + (707122336 + 305306908i)u
+(1919180346 + 300964902i) + (878383986 + 837712435i)u
+(249315404 + 240912884i) + (1158520544 + 1420405009i)u
+(695202856 + 1896991789i) + (1362743948 + 1011034964i)u
+(532438005 + 1595252559i) + (1164101646 + 79565599i)u
+f_at_p: (1214614360 + 1940470955i) + (1331035978 + 2013493845i)u
+f_at_neg_p: (1669538488 + 1833581412i) + (144006315 + 1270056508i)u
+f_at_p: (1907171545 + 622341483i) + (1888756137 + 1614143330i)u
+[FAIL] stwo_cairo_air_integrationtest::verify::test_proof_with_blowup_2
+
+Failure data:
+    Could not reach the end of the program. RunResources has no remaining steps.
+
+Tests: 0 passed, 1 failed, 0 skipped, 0 ignored, 0 filtered out
+
+Failures:
+    stwo_cairo_air_integrationtest::verify::test_proof_with_blowup_2

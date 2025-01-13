@@ -3,6 +3,7 @@ use stwo_verifier_core::circle::{
 };
 use stwo_verifier_core::fields::m31::{M31, m31};
 use stwo_verifier_core::fields::qm31::{QM31, QM31Impl, qm31};
+
 use stwo_verifier_core::{ColumnArray, ColumnSpan};
 
 
@@ -106,6 +107,7 @@ pub fn evaluate_constraints_at_point(
     let trace_1_column_14_offset_0 = *trace_1_column_14.pop_front().unwrap();
     let mut trace_1_column_15 = trace_mask_values.pop_front().unwrap().span();
     let trace_1_column_15_offset_0 = *trace_1_column_15.pop_front().unwrap();
+
     let mut trace_2_column_16 = interaction_mask_values.pop_front().unwrap().span();
     let trace_2_column_16_offset_0 = *trace_2_column_16.pop_front().unwrap();
     let mut trace_2_column_17 = interaction_mask_values.pop_front().unwrap().span();
@@ -142,6 +144,7 @@ pub fn evaluate_constraints_at_point(
     let mut trace_2_column_31 = interaction_mask_values.pop_front().unwrap().span();
     let trace_2_column_31_offset_neg_1 = *trace_2_column_31.pop_front().unwrap();
     let trace_2_column_31_offset_0 = *trace_2_column_31.pop_front().unwrap();
+    core::internal::revoke_ap_tracking();
     let intermediate0 = (MemoryAddressToId_alpha0) * (preprocessed_seq)
         + (MemoryAddressToId_alpha1) * (trace_1_column_0_offset_0)
         - (MemoryAddressToId_z);
@@ -173,7 +176,7 @@ pub fn evaluate_constraints_at_point(
     let intermediate7 = (MemoryAddressToId_alpha0) * (preprocessed_seq + m31(112).into())
         + (MemoryAddressToId_alpha1) * (trace_1_column_14_offset_0)
         - (MemoryAddressToId_z);
-
+    core::internal::revoke_ap_tracking();
     let constraint_0 = (QM31Impl::from_partial_evals(
         [
             trace_2_column_16_offset_0, trace_2_column_17_offset_0, trace_2_column_18_offset_0,
@@ -183,6 +186,7 @@ pub fn evaluate_constraints_at_point(
         * ((intermediate0) * (intermediate1))
         - ((intermediate1) * (-(trace_1_column_1_offset_0))
             + (intermediate0) * (-(trace_1_column_3_offset_0)));
+    sum = sum * random_coeff + constraint_0 * domain_vanish_at_point_inv;
 
     let constraint_1 = (QM31Impl::from_partial_evals(
         [
@@ -199,6 +203,7 @@ pub fn evaluate_constraints_at_point(
         * ((intermediate2) * (intermediate3))
         - ((intermediate3) * (-(trace_1_column_5_offset_0))
             + (intermediate2) * (-(trace_1_column_7_offset_0)));
+    sum = sum * random_coeff + constraint_1 * domain_vanish_at_point_inv;
 
     let constraint_2 = (QM31Impl::from_partial_evals(
         [
@@ -215,6 +220,7 @@ pub fn evaluate_constraints_at_point(
         * ((intermediate4) * (intermediate5))
         - ((intermediate5) * (-(trace_1_column_9_offset_0))
             + (intermediate4) * (-(trace_1_column_11_offset_0)));
+    sum = sum * random_coeff + constraint_2 * domain_vanish_at_point_inv;
 
     let constraint_3 = (QM31Impl::from_partial_evals(
         [
@@ -238,12 +244,6 @@ pub fn evaluate_constraints_at_point(
         * ((intermediate6) * (intermediate7))
         - ((intermediate7) * (-(trace_1_column_13_offset_0))
             + (intermediate6) * (-(trace_1_column_15_offset_0)));
-    // TODO: Batch `domain_vanish_at_point_inv` multiplication.
-    sum = sum * random_coeff + constraint_0 * domain_vanish_at_point_inv;
-    // TODO: Batch `domain_vanish_at_point_inv` multiplication.
-    sum = sum * random_coeff + constraint_1 * domain_vanish_at_point_inv;
-    // TODO: Batch `domain_vanish_at_point_inv` multiplication.
-    sum = sum * random_coeff + constraint_2 * domain_vanish_at_point_inv;
-    // TODO: Batch `domain_vanish_at_point_inv` multiplication.
     sum = sum * random_coeff + constraint_3 * domain_vanish_at_point_inv;
 }
+

@@ -3,6 +3,7 @@ use stwo_verifier_core::circle::{
 };
 use stwo_verifier_core::fields::m31::{M31, m31};
 use stwo_verifier_core::fields::qm31::{QM31, QM31Impl, qm31};
+
 use stwo_verifier_core::{ColumnArray, ColumnSpan};
 
 
@@ -193,6 +194,7 @@ pub fn evaluate_constraints_at_point(
     let trace_1_column_8_offset_0 = *trace_1_column_8.pop_front().unwrap();
     let mut trace_1_column_9 = trace_mask_values.pop_front().unwrap().span();
     let trace_1_column_9_offset_0 = *trace_1_column_9.pop_front().unwrap();
+
     let mut trace_2_column_10 = interaction_mask_values.pop_front().unwrap().span();
     let trace_2_column_10_offset_0 = *trace_2_column_10.pop_front().unwrap();
     let mut trace_2_column_11 = interaction_mask_values.pop_front().unwrap().span();
@@ -225,6 +227,7 @@ pub fn evaluate_constraints_at_point(
     let trace_2_column_21_offset_neg_1 = *trace_2_column_21.pop_front().unwrap();
     let trace_2_column_21_offset_0 = *trace_2_column_21.pop_front().unwrap();
     let trace_2_column_21_offset_claimed_sum = *trace_2_column_21.pop_front().unwrap();
+    core::internal::revoke_ap_tracking();
     let intermediate0 = (VerifyInstruction_alpha0) * (trace_1_column_0_offset_0)
         + (VerifyInstruction_alpha1) * (qm31(32767, 0, 0, 0))
         + (VerifyInstruction_alpha2) * (qm31(32767, 0, 0, 0))
@@ -282,12 +285,15 @@ pub fn evaluate_constraints_at_point(
         + (Opcodes_alpha1) * (trace_1_column_1_offset_0 + trace_1_column_3_offset_0)
         + (Opcodes_alpha2) * (trace_1_column_2_offset_0)
         - (Opcodes_z);
-
+    core::internal::revoke_ap_tracking();
     let constraint_0 = (trace_1_column_5_offset_0) * (trace_1_column_5_offset_0 - (m31(1).into()));
+    sum = sum * random_coeff + constraint_0 * domain_vanish_at_point_inv;
 
     let constraint_1 = (trace_1_column_6_offset_0) * (trace_1_column_6_offset_0 - (m31(1).into()));
+    sum = sum * random_coeff + constraint_1 * domain_vanish_at_point_inv;
 
     let constraint_2 = (trace_1_column_6_offset_0) * (trace_1_column_5_offset_0 - (m31(1).into()));
+    sum = sum * random_coeff + constraint_2 * domain_vanish_at_point_inv;
 
     let constraint_3 = (QM31Impl::from_partial_evals(
         [
@@ -297,6 +303,7 @@ pub fn evaluate_constraints_at_point(
     ))
         * ((intermediate0) * (intermediate1))
         - (intermediate1 + intermediate0);
+    sum = sum * random_coeff + constraint_3 * domain_vanish_at_point_inv;
 
     let constraint_4 = (QM31Impl::from_partial_evals(
         [
@@ -312,6 +319,7 @@ pub fn evaluate_constraints_at_point(
         )))
         * ((intermediate2) * (intermediate3))
         - (intermediate3 + intermediate2);
+    sum = sum * random_coeff + constraint_4 * domain_vanish_at_point_inv;
 
     let constraint_5 = (QM31Impl::from_partial_evals(
         [
@@ -321,6 +329,7 @@ pub fn evaluate_constraints_at_point(
     )
         - (claimed_sum))
         * (preprocessed_is_first);
+    sum = sum * random_coeff + constraint_5 * domain_vanish_at_point_inv;
 
     let constraint_6 = (QM31Impl::from_partial_evals(
         [
@@ -343,18 +352,6 @@ pub fn evaluate_constraints_at_point(
         )))
         * (intermediate4)
         - (qm31(2147483646, 0, 0, 0));
-    // TODO: Batch `domain_vanish_at_point_inv` multiplication.
-    sum = sum * random_coeff + constraint_0 * domain_vanish_at_point_inv;
-    // TODO: Batch `domain_vanish_at_point_inv` multiplication.
-    sum = sum * random_coeff + constraint_1 * domain_vanish_at_point_inv;
-    // TODO: Batch `domain_vanish_at_point_inv` multiplication.
-    sum = sum * random_coeff + constraint_2 * domain_vanish_at_point_inv;
-    // TODO: Batch `domain_vanish_at_point_inv` multiplication.
-    sum = sum * random_coeff + constraint_3 * domain_vanish_at_point_inv;
-    // TODO: Batch `domain_vanish_at_point_inv` multiplication.
-    sum = sum * random_coeff + constraint_4 * domain_vanish_at_point_inv;
-    // TODO: Batch `domain_vanish_at_point_inv` multiplication.
-    sum = sum * random_coeff + constraint_5 * domain_vanish_at_point_inv;
-    // TODO: Batch `domain_vanish_at_point_inv` multiplication.
     sum = sum * random_coeff + constraint_6 * domain_vanish_at_point_inv;
 }
+

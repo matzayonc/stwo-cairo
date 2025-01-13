@@ -54,6 +54,7 @@ pub fn evaluate_constraints_at_point(
     let trace_1_column_1_offset_0 = *trace_1_column_1.pop_front().unwrap();
     let mut trace_1_column_2 = trace_mask_values.pop_front().unwrap().span();
     let trace_1_column_2_offset_0 = *trace_1_column_2.pop_front().unwrap();
+
     let mut trace_2_column_3 = interaction_mask_values.pop_front().unwrap().span();
     let trace_2_column_3_offset_neg_1 = *trace_2_column_3.pop_front().unwrap();
     let trace_2_column_3_offset_0 = *trace_2_column_3.pop_front().unwrap();
@@ -66,10 +67,11 @@ pub fn evaluate_constraints_at_point(
     let mut trace_2_column_6 = interaction_mask_values.pop_front().unwrap().span();
     let trace_2_column_6_offset_neg_1 = *trace_2_column_6.pop_front().unwrap();
     let trace_2_column_6_offset_0 = *trace_2_column_6.pop_front().unwrap();
+    core::internal::revoke_ap_tracking();
     let intermediate0 = (RangeCheck_4_3_alpha0) * (trace_1_column_0_offset_0)
         + (RangeCheck_4_3_alpha1) * (trace_1_column_1_offset_0)
         - (RangeCheck_4_3_z);
-
+    core::internal::revoke_ap_tracking();
     let constraint_0 = (QM31Impl::from_partial_evals(
         [
             trace_2_column_3_offset_0, trace_2_column_4_offset_0, trace_2_column_5_offset_0,
@@ -85,7 +87,6 @@ pub fn evaluate_constraints_at_point(
             - ((total_sum) * (preprocessed_is_first))))
         * (intermediate0)
         - (-(trace_1_column_2_offset_0));
-    // TODO: Batch `domain_vanish_at_point_inv` multiplication.
     sum = sum * random_coeff + constraint_0 * domain_vanish_at_point_inv;
 }
 
