@@ -1,6 +1,7 @@
 use itertools::{chain, Itertools};
 use prover_types::simd::LOG_N_LANES;
 use stwo_prover::constraint_framework::preprocessed_columns::{IsFirst, PreProcessedColumnId};
+use stwo_prover::core::backend::simd::column::BaseColumn;
 use stwo_prover::core::backend::simd::m31::{PackedM31, N_LANES};
 use stwo_prover::core::backend::simd::SimdBackend;
 use stwo_prover::core::backend::Col;
@@ -99,6 +100,89 @@ impl Seq {
         PreProcessedColumnId {
             id: format!("preprocessed_seq_{}", self.log_size).to_string(),
         }
+    }
+}
+
+/// Columns for the bitwise xor preprocessed table.
+/// The table has three columns (use col_index to select the column when needed):
+/// 0: first limb, 1: second limb, 2: result of the limbs' bitwise xor.
+#[derive(Debug)]
+pub struct BitwiseXor {
+    pub n_bits: u32,
+    pub n_expand_bits: u32,
+}
+impl BitwiseXor {
+    pub const fn new(n_bits: u32, n_expand_bits: u32) -> Self {
+        Self {
+            n_bits,
+            n_expand_bits,
+        }
+    }
+
+    pub fn id(&self, col_index: usize) -> PreProcessedColumnId {
+        PreProcessedColumnId {
+            id: format!(
+                "preprocessed_bitwise_xor_{}_{}_{}",
+                self.n_bits, self.n_expand_bits, col_index
+            ),
+        }
+    }
+    pub const fn limb_bits(&self) -> u32 {
+        self.n_bits - self.n_expand_bits
+    }
+
+    pub const fn column_bits(&self) -> u32 {
+        2 * self.limb_bits()
+    }
+
+    #[allow(clippy::type_complexity)]
+    pub fn gen_column_simd(
+        &self,
+        col_index: usize,
+    ) -> CircleEvaluation<SimdBackend, BaseField, BitReversedOrder> {
+        let col: BaseColumn = match col_index {
+            0 => (0..(1 << self.column_bits()))
+                .map(|i| BaseField::from_u32_unchecked((i >> self.limb_bits()) as u32))
+                .collect(),
+            1 => (0..(1 << self.column_bits()))
+                .map(|i| BaseField::from_u32_unchecked((i & ((1 << self.limb_bits()) - 1)) as u32))
+                .collect(),
+            2 => (0..(1 << self.column_bits()))
+                .map(|i| {
+                    BaseField::from_u32_unchecked(
+                        ((i >> self.limb_bits()) ^ (i & ((1 << self.limb_bits()) - 1))) as u32,
+                    )
+                })
+                .collect(),
+            _ => unreachable!(),
+        };
+        CircleEvaluation::new(CanonicCoset::new(self.column_bits()).circle_domain(), col)
+    }
+
+    pub fn packed_at(&self, col_index: usize, vec_row: usize) -> PackedM31 {
+        let at_row: [BaseField; N_LANES] = match col_index {
+            0 => (vec_row * N_LANES..(vec_row + 1) * N_LANES)
+                .map(|i| BaseField::from_u32_unchecked((i >> self.limb_bits()) as u32))
+                .collect_vec()
+                .try_into()
+                .unwrap(),
+            1 => (vec_row * N_LANES..(vec_row + 1) * N_LANES)
+                .map(|i| BaseField::from_u32_unchecked((i & ((1 << self.limb_bits()) - 1)) as u32))
+                .collect_vec()
+                .try_into()
+                .unwrap(),
+            2 => (vec_row * N_LANES..(vec_row + 1) * N_LANES)
+                .map(|i| {
+                    BaseField::from_u32_unchecked(
+                        ((i >> self.limb_bits()) ^ (i & ((1 << self.limb_bits()) - 1))) as u32,
+                    )
+                })
+                .collect_vec()
+                .try_into()
+                .unwrap(),
+            _ => unreachable!(),
+        };
+        PackedM31::from_array(at_row)
     }
 }
 
