@@ -183,3 +183,18 @@ impl<T0: CairoSerialize, T1: CairoSerialize, T2: CairoSerialize> CairoSerialize 
         v2.serialize(output);
     }
 }
+
+impl CairoSerialize for stwo_prover::core::vcs::blake2_hash::Blake2sHash {
+    fn serialize(&self, output: &mut Vec<FieldElement>) {
+        dbg!(&self.to_string());
+        let bytes = self.to_string();
+        let felt = FieldElement::from_hex_be(&bytes).unwrap();
+        output.push(felt);
+    }
+}
+
+impl<T: CairoSerialize> CairoSerialize for stwo_prover::core::pcs::TreeVec<T> {
+    fn serialize(&self, output: &mut Vec<FieldElement>) {
+        self.iter().for_each(|v| v.serialize(output));
+    }
+}
